@@ -7,6 +7,7 @@ specifiers:
   '@rollup/plugin-commonjs': ^21.0.1
   '@rollup/plugin-node-resolve': ^13.0.6
   '@rollup/plugin-replace': ^3.0.0
+  '@types/sass': ^1.43.1
   chalk: 4.1.2
   components-helper: ^1.0.4
   esbuild: ^0.14.0
@@ -19,6 +20,7 @@ specifiers:
   rollup-plugin-esbuild: ^4.7.2
   rollup-plugin-filesize: ^9.1.1
   rollup-plugin-vue: ^6.0.0
+  sass: ^1.43.5
   sucrase: ^3.20.3
   ts-morph: ^13.0.2
   typescript: ^4.5.2
@@ -30,6 +32,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 21.0.1_rollup@2.60.1
   '@rollup/plugin-node-resolve': 13.0.6_rollup@2.60.1
   '@rollup/plugin-replace': 3.0.0_rollup@2.60.1
+  '@types/sass': 1.43.1
   chalk: 4.1.2
   components-helper: 1.0.4
   esbuild: 0.14.0
@@ -42,6 +45,7 @@ devDependencies:
   rollup-plugin-esbuild: 4.7.2_esbuild@0.14.0+rollup@2.60.1
   rollup-plugin-filesize: 9.1.1
   rollup-plugin-vue: 6.0.0
+  sass: 1.43.5
   sucrase: 3.20.3
   ts-morph: 13.0.2
   typescript: 4.5.2
@@ -455,6 +459,12 @@ packages:
       '@types/node': 16.11.10
     dev: true
 
+  /@types/sass/1.43.1:
+    resolution: {integrity: sha512-BPdoIt1lfJ6B7rw35ncdwBZrAssjcwzI5LByIrYs+tpXlj/CAkuVdRsgZDdP4lq5EjyWzwxZCqAoFyHKFwp32g==}
+    dependencies:
+      '@types/node': 16.11.10
+    dev: true
+
   /@zkochan/npm-conf/2.0.2:
     resolution: {integrity: sha512-nF6cxXu/3x0gbIGZdiajpL6diySPoU5T5Mh0TXSjHp2shZoqtZgRj3zdIc/pkd6kKAWaktFvOFFo5kTqwne/tg==}
     engines: {node: '>=10'}
@@ -591,6 +601,14 @@ packages:
     dependencies:
       micromatch: 3.1.10
       normalize-path: 2.1.1
+    dev: true
+
+  /anymatch/3.1.2:
+    resolution: {integrity: sha512-P43ePfOAIupkguHUycrc4qJ9kz8ZiuOUijaETwX7THt0Y/GNK7v0aa8rY816xWjZ7rJdA5XdMcpVFTKMq+RvWg==}
+    engines: {node: '>= 8'}
+    dependencies:
+      normalize-path: 3.0.0
+      picomatch: 2.3.0
     dev: true
 
   /append-buffer/1.0.2:
@@ -798,6 +816,11 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
+  /binary-extensions/2.2.0:
+    resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
+    engines: {node: '>=8'}
+    dev: true
+
   /bindings/1.5.0:
     resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
     dependencies:
@@ -987,6 +1010,21 @@ packages:
       upath: 1.2.0
     optionalDependencies:
       fsevents: 1.2.13
+    dev: true
+
+  /chokidar/3.5.2:
+    resolution: {integrity: sha512-ekGhOnNVPgT77r4K/U3GDhu+FQ2S8TnK/s2KbIGXi0SZWuwkZ2QNyfWdZW+TVfn84DpEP7rLeCt2UI6bJ8GwbQ==}
+    engines: {node: '>= 8.10.0'}
+    dependencies:
+      anymatch: 3.1.2
+      braces: 3.0.2
+      glob-parent: 5.1.2
+      is-binary-path: 2.1.0
+      is-glob: 4.0.3
+      normalize-path: 3.0.0
+      readdirp: 3.6.0
+    optionalDependencies:
+      fsevents: 2.3.2
     dev: true
 
   /chownr/2.0.0:
@@ -2314,6 +2352,13 @@ packages:
       binary-extensions: 1.13.1
     dev: true
 
+  /is-binary-path/2.1.0:
+    resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==}
+    engines: {node: '>=8'}
+    dependencies:
+      binary-extensions: 2.2.0
+    dev: true
+
   /is-buffer/1.1.6:
     resolution: {integrity: sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==}
     dev: true
@@ -3566,6 +3611,13 @@ packages:
       readable-stream: 2.3.7
     dev: true
 
+  /readdirp/3.6.0:
+    resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
+    engines: {node: '>=8.10.0'}
+    dependencies:
+      picomatch: 2.3.0
+    dev: true
+
   /realpath-missing/1.1.0:
     resolution: {integrity: sha512-wnWtnywepjg/eHIgWR97R7UuM5i+qHLA195qdN9UPKvcMqfn60+67S8sPPW3vDlSEfYHoFkKU8IvpCNty3zQvQ==}
     engines: {node: '>=10'}
@@ -3829,6 +3881,14 @@ packages:
 
   /safer-buffer/2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
+    dev: true
+
+  /sass/1.43.5:
+    resolution: {integrity: sha512-WuNm+eAryMgQluL7Mbq9M4EruyGGMyal7Lu58FfnRMVWxgUzIvI7aSn60iNt3kn5yZBMR7G84fAGDcwqOF5JOg==}
+    engines: {node: '>=8.9.0'}
+    hasBin: true
+    dependencies:
+      chokidar: 3.5.2
     dev: true
 
   /semver-greatest-satisfied-range/1.1.0:
