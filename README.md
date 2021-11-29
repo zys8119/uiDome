@@ -1,180 +1,243 @@
-<p align="center">
-  <img width="300px" src="https://user-images.githubusercontent.com/10731096/95823103-9ce15780-0d5f-11eb-8010-1bd1b5910d4f.png">
-</p>
+[comment]: <> (<p align="center">)
 
-<p align="center">
-  <a href="https://www.npmjs.org/package/element-plus">
-    <img src="https://img.shields.io/npm/v/element-plus.svg">
-  </a>
-  <a href="https://npmcharts.com/compare/element-plus?minimal=true">
-    <img src="http://img.shields.io/npm/dm/element-plus.svg">
-  </a>
-  <br>
-</p>
+[comment]: <> (  <img width="300px" src="https://user-images.githubusercontent.com/10731096/95823103-9ce15780-0d5f-11eb-8010-1bd1b5910d4f.png">)
 
-<p align="center">Element Plus - A Vue.js 3 UI library</p>
+[comment]: <> (</p>)
 
-- 💪 Vue 3 Composition API
-- 🔥 Written in TypeScript
+[comment]: <> (<p align="center">)
+
+[comment]: <> (  <a href="https://www.npmjs.org/package/element-plus">)
+
+[comment]: <> (    <img src="https://img.shields.io/npm/v/element-plus.svg">)
+
+[comment]: <> (  </a>)
+
+[comment]: <> (  <a href="https://npmcharts.com/compare/element-plus?minimal=true">)
+
+[comment]: <> (    <img src="http://img.shields.io/npm/dm/element-plus.svg">)
+
+[comment]: <> (  </a>)
+
+[comment]: <> (  <br>)
+
+[comment]: <> (</p>)
+
+[comment]: <> (<p align="center">Element Plus - A Vue.js 3 UI library</p>)
+
+[comment]: <> (- 💪 Vue 3 Composition API)
+
+[comment]: <> (- 🔥 Written in TypeScript)
 
 ## Archived website
 
-If you are looking for previous version website, here is the link.
+[comment]: <> (If you are looking for previous version website, here is the link.)
 
-[Element Plus Documentation Archived](https://github.com/element-plus/doc-archive)
+[comment]: <> ([Element Plus Documentation Archived]&#40;https://github.com/element-plus/doc-archive&#41;)
 
-The new website is launched at 17th Sep 2021.
+[comment]: <> (The new website is launched at 17th Sep 2021.)
 
 ## Status: Beta
 
-This project is still under heavy development. Feel free to join us and make your first pull request.
+[comment]: <> (This project is still under heavy development. Feel free to join us and make your first pull request.)
 
 ### Playground
 
 #### Try it with code sandbox
 
-[![Edit element-plus](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/element-plus-demo-dxtcr)
+[comment]: <> ([![Edit element-plus]&#40;https://codesandbox.io/static/img/play-codesandbox.svg&#41;]&#40;https://codesandbox.io/s/element-plus-demo-dxtcr&#41;)
 
 #### Try it with our built-in playground
 
-[Playground](https://play.element-plus.org/)
+[comment]: <> ([Playground]&#40;https://play.element-plus.org/&#41;)
 
-<p align="center">
-  <b>Special thanks to the generous sponsorship by:</b>
-</p>
-<br/>
-<table align="center" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td align="center" valign="middle">
-        <a href="https://www.jnpfsoft.com/index.html?from=elementUI" target="_blank">
-          <img width="150px" src="https://user-images.githubusercontent.com/17680888/140337374-59b3cb43-c1d3-449e-9757-2503de56f8e2.png">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a href="https://bit.dev/?from=element-ui" target="_blank">
-          <img width="150px" src="https://user-images.githubusercontent.com/10095631/41342907-e44e7196-6f2f-11e8-92f2-47702dc8f059.png">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a href="https://www.renren.io/?from=element-ui" target="_blank">
-          <img width="150px" src="https://user-images.githubusercontent.com/82012629/126620778-0d8ab509-018a-45d7-b8de-a5bac2ad519a.png">
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+[comment]: <> (<p align="center">)
 
----
+[comment]: <> (  <b>Special thanks to the generous sponsorship by:</b>)
+
+[comment]: <> (</p>)
+
+[comment]: <> (<br/>)
+
+[comment]: <> (<table align="center" cellspacing="0" cellpadding="0">)
+
+[comment]: <> (  <tbody>)
+
+[comment]: <> (    <tr>)
+
+[comment]: <> (      <td align="center" valign="middle">)
+
+[comment]: <> (        <a href="https://www.jnpfsoft.com/index.html?from=elementUI" target="_blank">)
+
+[comment]: <> (          <img width="150px" src="https://user-images.githubusercontent.com/17680888/140337374-59b3cb43-c1d3-449e-9757-2503de56f8e2.png">)
+
+[comment]: <> (        </a>)
+
+[comment]: <> (      </td>)
+
+[comment]: <> (      <td align="center" valign="middle">)
+
+[comment]: <> (        <a href="https://bit.dev/?from=element-ui" target="_blank">)
+
+[comment]: <> (          <img width="150px" src="https://user-images.githubusercontent.com/10095631/41342907-e44e7196-6f2f-11e8-92f2-47702dc8f059.png">)
+
+[comment]: <> (        </a>)
+
+[comment]: <> (      </td>)
+
+[comment]: <> (      <td align="center" valign="middle">)
+
+[comment]: <> (        <a href="https://www.renren.io/?from=element-ui" target="_blank">)
+
+[comment]: <> (          <img width="150px" src="https://user-images.githubusercontent.com/82012629/126620778-0d8ab509-018a-45d7-b8de-a5bac2ad519a.png">)
+
+[comment]: <> (        </a>)
+
+[comment]: <> (      </td>)
+
+[comment]: <> (    </tr>)
+
+[comment]: <> (  </tbody>)
+
+[comment]: <> (</table>)
+
+[comment]: <> (---)
 
 ## Translations
 
-Element Plus is translated to multiple languages, you can click the badge to help up update the translation or apply to become
-a proofreader [![Crowdin](https://badges.crowdin.net/element-plus/localized.svg)](https://crowdin.com/project/element-plus)
+[comment]: <> (Element Plus is translated to multiple languages, you can click the badge to help up update the translation or apply to become)
+
+[comment]: <> (a proofreader [![Crowdin]&#40;https://badges.crowdin.net/element-plus/localized.svg&#41;]&#40;https://crowdin.com/project/element-plus&#41;)
 
 ## Documentation
 
-You can find for more details, API, and other docs on [https://element-plus.org](https://element-plus.org/)
+[comment]: <> (You can find for more details, API, and other docs on [https://element-plus.org]&#40;https://element-plus.org/&#41;)
 
-国内[加速镜像站点](https://element-plus.gitee.io/)
+[comment]: <> (国内[加速镜像站点]&#40;https://element-plus.gitee.io/&#41;)
 
-Join our [Discord](https://discord.link/ElementPlus) to start communicating with everybody.
+[comment]: <> (Join our [Discord]&#40;https://discord.link/ElementPlus&#41; to start communicating with everybody.)
 
 ## Breaking change list
 
-You can find the breaking change list here: [Breaking Change List](https://github.com/element-plus/element-plus/issues/162).
+[comment]: <> (You can find the breaking change list here: [Breaking Change List]&#40;https://github.com/element-plus/element-plus/issues/162&#41;.)
 
 ## Bootstrap project
 
-With command
+[comment]: <> (With command)
 
-```bash
-$ pnpm i
-```
+[comment]: <> (```bash)
 
-the project will install all dependencies
+[comment]: <> ($ pnpm i)
+
+[comment]: <> (```)
+
+[comment]: <> (the project will install all dependencies)
 
 ## Website preview
 
-With command
+[comment]: <> (With command)
 
-```bash
-$ pnpm docs:dev
-```
+[comment]: <> (```bash)
 
-the project will launch website for you to preview all existing component
+[comment]: <> ($ pnpm docs:dev)
+
+[comment]: <> (```)
+
+[comment]: <> (the project will launch website for you to preview all existing component)
 
 ## Local development
 
-1. With command
+[comment]: <> (1. With command)
 
-```shell
-$ pnpm dev
-```
+[comment]: <> (```shell)
 
-will start the local development environment
+[comment]: <> ($ pnpm dev)
 
-2. Add your component into `play/src/App.vue`
+[comment]: <> (```)
 
-> App.vue
+[comment]: <> (will start the local development environment)
 
-```vue
-<template>
-  <ComponentYouAreDeveloping />
-</template>
+[comment]: <> (2. Add your component into `play/src/App.vue`)
 
-<script setup lang="ts">
-// make sure this component is registered in @element-plus/components
-import { ComponentYouAreDeveloping } from '@element-plus/components'
-</script>
-```
+[comment]: <> (> App.vue)
 
-Modify `App.vue` file per your needs to get things work.
+[comment]: <> (```vue)
+
+[comment]: <> (<template>)
+
+[comment]: <> (  <ComponentYouAreDeveloping />)
+
+[comment]: <> (</template>)
+
+[comment]: <> (<script setup lang="ts">)
+
+[comment]: <> (// make sure this component is registered in @element-plus/components)
+
+[comment]: <> (import { ComponentYouAreDeveloping } from '@element-plus/components')
+
+[comment]: <> (</script>)
+
+[comment]: <> (```)
+
+[comment]: <> (Modify `App.vue` file per your needs to get things work.)
 
 ## Component migration process
 
-1. Convert the item in https://github.com/element-plus/element-plus/projects/1 to an issue
-2. Assign yourself to the issue
-3. Author your component by generating new component command below
-4. Migrate tests and docs
-5. Open a new pull request, fill in the component issue link in 1
+[comment]: <> (1. Convert the item in https://github.com/element-plus/element-plus/projects/1 to an issue)
+
+[comment]: <> (2. Assign yourself to the issue)
+
+[comment]: <> (3. Author your component by generating new component command below)
+
+[comment]: <> (4. Migrate tests and docs)
+
+[comment]: <> (5. Open a new pull request, fill in the component issue link in 1)
 
 ## Generate new component
 
-With command
+[comment]: <> (With command)
 
-```bash
-$ pnpm gen component-name
-```
+[comment]: <> (```bash)
 
-Note the `component-name` must be in `kebab-case`, combining words by replacing each space with a dash.
+[comment]: <> ($ pnpm gen component-name)
 
-And component type must be added to `typings/global.d.ts`.
+[comment]: <> (```)
+
+[comment]: <> (Note the `component-name` must be in `kebab-case`, combining words by replacing each space with a dash.)
+
+[comment]: <> (And component type must be added to `typings/global.d.ts`.)
 
 ## Commit template
 
-With command
+[comment]: <> (With command)
 
-```bash
-pnpm cz
-```
+[comment]: <> (```bash)
 
-Example
+[comment]: <> (pnpm cz)
 
-```
-# [TYPE](SCOPE): [el-component-name] DESCRIPTION#[ISSUE]
-# example: feat(components): [el-button] add type for form usage #1234
-```
+[comment]: <> (```)
+
+[comment]: <> (Example)
+
+[comment]: <> (```)
+
+[comment]: <> (# [TYPE]&#40;SCOPE&#41;: [el-component-name] DESCRIPTION#[ISSUE])
+
+[comment]: <> (# example: feat&#40;components&#41;: [el-button] add type for form usage #1234)
+
+[comment]: <> (```)
 
 ## Licence
 
-Element Plus is open source software licensed as
-[MIT](https://github.com/element-plus/element-plus/blob/master/LICENSE).
+[comment]: <> (Element Plus is open source software licensed as)
+
+[comment]: <> ([MIT]&#40;https://github.com/element-plus/element-plus/blob/master/LICENSE&#41;.)
 
 ## Contributors
 
 This project wouldn't exist without our amazing contributors
 
-<a href="https://github.com/element-plus/element-plus/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=element-plus/element-plus" />
-</a>
+[comment]: <> (<a href="https://github.com/element-plus/element-plus/graphs/contributors">)
+
+[comment]: <> (  <img src="https://contrib.rocks/image?repo=element-plus/element-plus" />)
+
+[comment]: <> (</a>)
