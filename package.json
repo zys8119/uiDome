@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "pnpm -C play dev",
     "build": "gulp --require sucrase/register/ts -f build/gulpfile.ts",
     "clean": "pnpm run clean:lib && pnpm run clean -r --stream",
     "clean:lib": "rimraf dist"
@@ -18,6 +19,36 @@
     "url": "https://github.com/zys8119/uiDome/issues"
   },
   "homepage": "https://github.com/zys8119/uiDome#readme",
+  "engines": {
+      "node": ">= 16"
+  },
+  "packageManager": "pnpm@6.23.2",
+  "workspaces": [
+      "packages/*",
+      "play",
+      "docs"
+  ],
+  "peerDependencies": {
+      "vue": "^3.2.0"
+  },
+  "dependencies": {
+      "@element-plus/components": "workspace:*",
+      "@element-plus/directives": "workspace:*",
+      "@element-plus/hooks": "workspace:*",
+      "@element-plus/icons": "^0.0.11",
+      "@element-plus/locale": "workspace:*",
+      "@element-plus/test-utils": "workspace:*",
+      "@element-plus/theme-chalk": "workspace:*",
+      "@element-plus/tokens": "workspace:*",
+      "@element-plus/utils": "workspace:*",
+      "@popperjs/core": "^2.10.2",
+      "@vueuse/core": "^7.0.0",
+      "async-validator": "^4.0.7",
+      "dayjs": "^1.10.7",
+      "lodash": "^4.17.21",
+      "memoize-one": "^6.0.0",
+      "normalize-wheel-es": "^1.1.1"
+  },
   "devDependencies": {
     "@pnpm/find-workspace-packages": "^3.1.26",
     "@pnpm/logger": "^4.0.0",
@@ -41,6 +72,10 @@
     "sass": "^1.43.5",
     "sucrase": "^3.20.3",
     "ts-morph": "^13.0.2",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.2",
+    "vue": "3.2.22",
+    "vue-jest": "5.0.0-alpha.10",
+    "vue-router": "4.0.12",
+    "vue-tsc": "0.29.6"
   }
 }
