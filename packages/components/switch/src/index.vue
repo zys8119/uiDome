@@ -104,14 +104,14 @@ import {
   watch,
 } from 'vue'
 import { isPromise } from '@vue/shared'
-import { elFormKey, elFormItemKey } from '@element-plus/tokens'
-import { isBool } from '@element-plus/utils/util'
-import { throwError, debugWarn } from '@element-plus/utils/error'
-import ElIcon from '@element-plus/components/icon'
-import { Loading } from '@element-plus/icons'
+import { elFormKey, elFormItemKey } from '@wisdom-plus/tokens'
+import { isBool } from '@wisdom-plus/utils/util'
+import { throwError, debugWarn } from '@wisdom-plus/utils/error'
+import ElIcon from '@wisdom-plus/components/icon'
+import { Loading } from '@wisdom-plus/icons'
 
 import type { PropType, Component } from 'vue'
-import type { ElFormContext, ElFormItemContext } from '@element-plus/tokens'
+import type { ElFormContext, ElFormItemContext } from '@wisdom-plus/tokens'
 
 type ValueType = boolean | string | number
 

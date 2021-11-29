@@ -1,5 +1,5 @@
 {
-  "name": "@element-plus/play",
+  "name": "@wisdom-plus/play",
   "private": true,
   "scripts": {
     "dev": "vite",
@@ -7,7 +7,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@element-plus/icons": "^0.0.11"
+    "@wisdom-plus/icons": "^0.0.11"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "1.10.0",

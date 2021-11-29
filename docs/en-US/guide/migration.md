@@ -13,7 +13,7 @@ This document will help you upgrade from Element 2.x to Element Plus.
 
 Here is the list of breaking changes.
 
-For now, check [list of breaking changes](https://github.com/element-plus/element-plus/issues/162)
+For now, check [list of breaking changes](https://github.com/wisdom-plus/wisdom-plus/issues/162)
 for full details before more thorough documentation is available.
 
 ## Vue 3 migration build

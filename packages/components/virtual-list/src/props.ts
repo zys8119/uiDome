@@ -3,11 +3,11 @@ import {
   buildProps,
   definePropType,
   mutable,
-} from '@element-plus/utils/props'
+} from '@wisdom-plus/utils/props'
 import { VERTICAL } from './defaults'
 
 import type { ExtractPropTypes } from 'vue'
-import type { StyleValue } from '@element-plus/utils/types'
+import type { StyleValue } from '@wisdom-plus/utils/types'
 import type { ItemSize } from './types'
 
 const itemSize = buildProp({

@@ -1,10 +1,10 @@
-import { setConfig } from '@element-plus/utils/config'
-import { LocaleInjectionKey, localeProviderMaker } from '@element-plus/hooks'
+import { setConfig } from '@wisdom-plus/utils/config'
+import { LocaleInjectionKey, localeProviderMaker } from '@wisdom-plus/hooks'
 import { version } from './version'
 
 import type { App, Plugin } from 'vue'
-import type { ComponentSize } from '@element-plus/utils/types'
-import type { InstallOptions } from '@element-plus/utils/config'
+import type { ComponentSize } from '@wisdom-plus/utils/types'
+import type { InstallOptions } from '@wisdom-plus/utils/config'
 
 const makeInstaller = (components: Plugin[] = []) => {
   const apps: App[] = []

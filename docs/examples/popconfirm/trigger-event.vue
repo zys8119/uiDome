@@ -15,7 +15,7 @@
 </template>
 
 <script setup lang="ts">
-import { InfoFilled } from '@element-plus/icons'
+import { InfoFilled } from '@wisdom-plus/icons'
 
 const confirmEvent = () => {
   console.log('confirm!')

@@ -83,7 +83,7 @@ import {
   Location,
   Tickets,
   OfficeBuilding,
-} from '@element-plus/icons'
+} from '@wisdom-plus/icons'
 
 const size = ref('')
 </script>

@@ -4,15 +4,15 @@ importers:
 
   .:
     specifiers:
-      '@element-plus/components': workspace:*
-      '@element-plus/directives': workspace:*
-      '@element-plus/hooks': workspace:*
-      '@element-plus/icons': ^0.0.11
-      '@element-plus/locale': workspace:*
-      '@element-plus/test-utils': workspace:*
-      '@element-plus/theme-chalk': workspace:*
-      '@element-plus/tokens': workspace:*
-      '@element-plus/utils': workspace:*
+      '@wisdom-plus/components': workspace:*
+      '@wisdom-plus/directives': workspace:*
+      '@wisdom-plus/hooks': workspace:*
+      '@wisdom-plus/icons': ^0.0.11
+      '@wisdom-plus/locale': workspace:*
+      '@wisdom-plus/test-utils': workspace:*
+      '@wisdom-plus/theme-chalk': workspace:*
+      '@wisdom-plus/tokens': workspace:*
+      '@wisdom-plus/utils': workspace:*
       '@pnpm/find-workspace-packages': ^3.1.26
       '@pnpm/logger': ^4.0.0
       '@pnpm/types': ^7.6.0
@@ -48,15 +48,15 @@ importers:
       vue-router: 4.0.12
       vue-tsc: 0.29.6
     dependencies:
-      '@element-plus/components': link:packages/components
-      '@element-plus/directives': link:packages/directives
-      '@element-plus/hooks': link:packages/hooks
-      '@element-plus/icons': 0.0.11
-      '@element-plus/locale': link:packages/locale
-      '@element-plus/test-utils': link:packages/test-utils
-      '@element-plus/theme-chalk': link:packages/theme-chalk
-      '@element-plus/tokens': link:packages/tokens
-      '@element-plus/utils': link:packages/utils
+      '@wisdom-plus/components': link:packages/components
+      '@wisdom-plus/directives': link:packages/directives
+      '@wisdom-plus/hooks': link:packages/hooks
+      '@wisdom-plus/icons': 0.0.11
+      '@wisdom-plus/locale': link:packages/locale
+      '@wisdom-plus/test-utils': link:packages/test-utils
+      '@wisdom-plus/theme-chalk': link:packages/theme-chalk
+      '@wisdom-plus/tokens': link:packages/tokens
+      '@wisdom-plus/utils': link:packages/utils
       '@popperjs/core': 2.11.0
       '@vueuse/core': 7.1.2_vue@3.2.22
       async-validator: 4.0.7
@@ -101,7 +101,7 @@ importers:
       axios: 0.24.0
       clipboard-copy: 4.0.1
       cross-env: 7.0.3
-      element-plus: npm:element-plus@latest
+      wisdom-plus: npm:wisdom-plus@latest
       markdown-it: 12.2.0
       markdown-it-container: 3.0.0
       normalize.css: 8.0.1
@@ -112,7 +112,7 @@ importers:
       '@vueuse/core': 7.1.0_vue@3.2.22
       axios: 0.24.0
       clipboard-copy: 4.0.1
-      element-plus: 1.2.0-beta.4_vue@3.2.22
+      wisdom-plus: 1.2.0-beta.4_vue@3.2.22
       normalize.css: 8.0.1
       nprogress: 0.2.0
     devDependencies:
@@ -130,9 +130,9 @@ importers:
   packages/directives:
     specifiers: {}
 
-  packages/element-plus:
+  packages/wisdom-plus:
     specifiers:
-      '@element-plus/icons': ^0.0.11
+      '@wisdom-plus/icons': ^0.0.11
       '@popperjs/core': ^2.10.2
       '@types/node': '*'
       '@vueuse/core': ^7.0.0
@@ -144,7 +144,7 @@ importers:
       normalize-wheel-es: ^1.1.1
       vue-router: ^4.0.0
     dependencies:
-      '@element-plus/icons': 0.0.11
+      '@wisdom-plus/icons': 0.0.11
       '@popperjs/core': 2.11.0
       '@vueuse/core': 7.1.2_vue@3.2.22
       async-validator: 4.0.7
@@ -194,13 +194,13 @@ importers:
 
   play:
     specifiers:
-      '@element-plus/icons': ^0.0.11
+      '@wisdom-plus/icons': ^0.0.11
       '@vitejs/plugin-vue': 1.10.0
       unplugin-vue-components: 0.17.2
       vite: 2.6.14
       vite-plugin-inspect: 0.3.11
     dependencies:
-      '@element-plus/icons': 0.0.11
+      '@wisdom-plus/icons': 0.0.11
     devDependencies:
       '@vitejs/plugin-vue': 1.10.0_vite@2.6.14
       unplugin-vue-components: 0.17.2_3c3bbef40a8add07c78b28db8fdf65c9
@@ -525,7 +525,7 @@ packages:
       algoliasearch: 4.11.0
     dev: true
 
-  /@element-plus/icons/0.0.11:
+  /@wisdom-plus/icons/0.0.11:
     resolution: {integrity: sha512-iKQXSxXu131Ai+I9Ymtcof9WId7kaXvB1+WRfAfpQCW7UiAMYgdNDqb/u0hgTo2Yq3MwC4MWJnNuTBEpG8r7+A==}
     dev: false
 
@@ -2468,12 +2468,12 @@ packages:
     resolution: {integrity: sha512-teHtgwcmVcL46jlFvAaqjyiTLWuMrUQO1JqV303JKB4ysXG6m8fXSFhbjal9st0r9mNskI22AraJZorb1VcLVg==}
     dev: true
 
-  /element-plus/1.2.0-beta.4_vue@3.2.22:
+  /wisdom-plus/1.2.0-beta.4_vue@3.2.22:
     resolution: {integrity: sha512-wYOwa/Zop5xMqhqkS7jOd32FF0Y2IpquIu8JLMbmvwlWvRUVetE5RO5lvxiF6etZgq8urRVttisXnOzJ9YOItQ==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
-      '@element-plus/icons': 0.0.11
+      '@wisdom-plus/icons': 0.0.11
       '@popperjs/core': 2.11.0
       '@vueuse/core': 7.1.2_vue@3.2.22
       async-validator: 4.0.7

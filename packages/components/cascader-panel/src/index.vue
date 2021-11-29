@@ -26,16 +26,16 @@ import {
   watch,
 } from 'vue'
 import isEqual from 'lodash/isEqual'
-import { EVENT_CODE, focusNode, getSibling } from '@element-plus/utils/aria'
-import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@element-plus/utils/constants'
-import isServer from '@element-plus/utils/isServer'
-import scrollIntoView from '@element-plus/utils/scroll-into-view'
+import { EVENT_CODE, focusNode, getSibling } from '@wisdom-plus/utils/aria'
+import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@wisdom-plus/utils/constants'
+import isServer from '@wisdom-plus/utils/isServer'
+import scrollIntoView from '@wisdom-plus/utils/scroll-into-view'
 import {
   arrayFlat,
   coerceTruthyValueToArray,
   deduplicate,
   isEmpty,
-} from '@element-plus/utils/util'
+} from '@wisdom-plus/utils/util'
 
 import ElCascaderMenu from './menu.vue'
 import Store from './store'
@@ -45,7 +45,7 @@ import { checkNode, getMenuIndex, sortByOriginalOrder } from './utils'
 import { CASCADER_PANEL_INJECTION_KEY } from './types'
 
 import type { PropType } from 'vue'
-import type { Nullable } from '@element-plus/utils/types'
+import type { Nullable } from '@wisdom-plus/utils/types'
 import type {
   CascaderValue,
   CascaderNodeValue,

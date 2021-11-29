@@ -11,17 +11,17 @@ import {
 import { isObject, toRawType } from '@vue/shared'
 import lodashDebounce from 'lodash/debounce'
 import isEqual from 'lodash/isEqual'
-import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@element-plus/utils/constants'
-import { EVENT_CODE } from '@element-plus/utils/aria'
-import { useLocaleInject } from '@element-plus/hooks'
-import isServer from '@element-plus/utils/isServer'
-import scrollIntoView from '@element-plus/utils/scroll-into-view'
-import { isKorean } from '@element-plus/utils/isDef'
-import { getValueByPath, useGlobalConfig } from '@element-plus/utils/util'
-import { elFormKey, elFormItemKey } from '@element-plus/tokens'
+import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@wisdom-plus/utils/constants'
+import { EVENT_CODE } from '@wisdom-plus/utils/aria'
+import { useLocaleInject } from '@wisdom-plus/hooks'
+import isServer from '@wisdom-plus/utils/isServer'
+import scrollIntoView from '@wisdom-plus/utils/scroll-into-view'
+import { isKorean } from '@wisdom-plus/utils/isDef'
+import { getValueByPath, useGlobalConfig } from '@wisdom-plus/utils/util'
+import { elFormKey, elFormItemKey } from '@wisdom-plus/tokens'
 
 import type { QueryChangeCtx, SelectOptionProxy } from './token'
-import type { ElFormContext, ElFormItemContext } from '@element-plus/tokens'
+import type { ElFormContext, ElFormItemContext } from '@wisdom-plus/tokens'
 
 export function useSelectStates(props) {
   const { t } = useLocaleInject()

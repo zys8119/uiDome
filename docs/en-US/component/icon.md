@@ -14,14 +14,14 @@ Element Plus team is replacing all **Font Icon** in the previously built compone
 :::
 
 <script setup>
-import { Edit, Share, Delete, Search, Loading } from '@element-plus/icons'
+import { Edit, Share, Delete, Search, Loading } from '@wisdom-plus/icons'
 </script>
 
 ## SvgIcon Usage
 
 - If you want to **use directly** like the example, you need to [globally register](https://v3.vuejs.org/guide/component-registration.html#global-registration) the components before using it.
 
-- If you want to see all available SVG icons please check [@element-plus/icons](https://unpkg.com/browse/@element-plus/icons@latest/lib/) and the source [Github/ElementPlus/icons](https://github.com/element-plus/element-plus-icons) out or [SVG icons](/#/en-US/component/icon#svg-tu-biao-ji-he)
+- If you want to see all available SVG icons please check [@wisdom-plus/icons](https://unpkg.com/browse/@wisdom-plus/icons@latest/lib/) and the source [Github/ElementPlus/icons](https://github.com/wisdom-plus/wisdom-plus-icons) out or [SVG icons](/#/en-US/component/icon#svg-tu-biao-ji-he)
 
 ## Installation
 
@@ -30,9 +30,9 @@ The current icon is only targeted to [Vue3](https://v3.vuejs.org).
 ## Using packaging manager
 
 ```shell
-$ yarn add @element-plus/icons
+$ yarn add @wisdom-plus/icons
 # or
-$ npm install @element-plus/icons
+$ npm install @wisdom-plus/icons
 ```
 
 ## Simple usage

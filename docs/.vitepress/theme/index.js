@@ -1,11 +1,11 @@
-import ElementPlus from 'element-plus'
+import ElementPlus from 'wisdom-plus'
 
 import VPApp, { globals, NotFound } from '../vitepress'
 
 export default {
   NotFound,
   Layout: VPApp,
-  logo: '/images/element-plus-logo-small.svg',
+  logo: '/images/wisdom-plus-logo-small.svg',
   enhanceApp: ({ app }) => {
     app.use(ElementPlus)
 

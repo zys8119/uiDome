@@ -20,7 +20,7 @@ Since Vue 3 no longer supports IE11, Element Plus does not support IE either.
 
 Element Plus is currently in a rapid development iteration.
 
-[![ElementPlus version badge](https://img.shields.io/npm/v/element-plus.svg?style=flat-square)](https://www.npmjs.org/package/element-plus)
+[![ElementPlus version badge](https://img.shields.io/npm/v/wisdom-plus.svg?style=flat-square)](https://www.npmjs.org/package/wisdom-plus)
 
 ## Using Package Manager
 
@@ -32,13 +32,13 @@ so that you can utilize bundlers like [Vite](https://vitejs.dev) and
 # Choose a package manager you like.
 
 # NPM
-$ npm install element-plus --save
+$ npm install wisdom-plus --save
 
 # Yarn
-$ yarn add element-plus
+$ yarn add wisdom-plus
 
 # pnpm
-$ pnpm install element-plus
+$ pnpm install wisdom-plus
 ```
 
 If your network environment is not good, it is recommended to use a mirror registry [cnpm](https://github.com/cnpm/cnpm) or [Alibaba](https://registry.npm.taobao.org).
@@ -56,11 +56,11 @@ You can also use other CDN providers.
 ```html
 <head>
   <!-- Import style -->
-  <link rel="stylesheet" href="//unpkg.com/element-plus/dist/index.css" />
+  <link rel="stylesheet" href="//unpkg.com/wisdom-plus/dist/index.css" />
   <!-- Import Vue 3 -->
   <script src="//unpkg.com/vue@next"></script>
   <!-- Import component library -->
-  <script src="//unpkg.com/element-plus"></script>
+  <script src="//unpkg.com/wisdom-plus"></script>
 </head>
 ```
 
@@ -71,12 +71,12 @@ You can also use other CDN providers.
   <!-- Import style -->
   <link
     rel="stylesheet"
-    href="//cdn.jsdelivr.net/npm/element-plus/dist/index.css"
+    href="//cdn.jsdelivr.net/npm/wisdom-plus/dist/index.css"
   />
   <!-- Import Vue 3 -->
   <script src="//cdn.jsdelivr.net/npm/vue@next"></script>
   <!-- Import component library -->
-  <script src="//cdn.jsdelivr.net/npm/element-plus"></script>
+  <script src="//cdn.jsdelivr.net/npm/wisdom-plus"></script>
 </head>
 ```
 

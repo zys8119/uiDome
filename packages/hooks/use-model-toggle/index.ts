@@ -1,8 +1,8 @@
 import { computed, getCurrentInstance, watch, onMounted } from 'vue'
 import { isFunction } from '@vue/shared'
-import { isBool } from '@element-plus/utils/util'
-import { UPDATE_MODEL_EVENT } from '@element-plus/utils/constants'
-import isServer from '@element-plus/utils/isServer'
+import { isBool } from '@wisdom-plus/utils/util'
+import { UPDATE_MODEL_EVENT } from '@wisdom-plus/utils/constants'
+import isServer from '@wisdom-plus/utils/isServer'
 
 import type { Ref, ComponentPublicInstance } from 'vue'
 

@@ -19,11 +19,11 @@ export default defineConfig(async () => {
     resolve: {
       alias: [
         {
-          find: /^element-plus(\/(es|lib))?$/,
+          find: /^wisdom-plus(\/(es|lib))?$/,
           replacement: path.resolve(epRoot, 'index.ts'),
         },
         {
-          find: /^element-plus\/(es|lib)\/(.*)$/,
+          find: /^wisdom-plus\/(es|lib)\/(.*)$/,
           replacement: `${pkgRoot}/$2`,
         },
       ],
@@ -49,7 +49,7 @@ export default defineConfig(async () => {
         'normalize-wheel-es',
         '@popperjs/core',
         'dayjs',
-        '@element-plus/icons',
+        '@wisdom-plus/icons',
         ...optimizeDeps,
       ],
     },

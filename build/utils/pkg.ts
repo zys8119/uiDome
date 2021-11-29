@@ -29,8 +29,8 @@ export const pathRewriter = (module: Module) => {
   const config = buildConfig[module]
 
   return (id: string) => {
-    id = id.replaceAll(`${EP_PREFIX}/theme-chalk`, 'element-plus/theme-chalk')
-    // TODO: handle @element-plus/icons
+    id = id.replaceAll(`${EP_PREFIX}/theme-chalk`, 'wisdom-plus/theme-chalk')
+    // TODO: handle @wisdom-plus/icons
     id = id.replaceAll(`${EP_PREFIX}/`, `${config.bundle.path}/`)
     return id
   }

@@ -33,7 +33,7 @@
 </template>
 
 <script lang="ts" setup>
-import { CaretBottom } from '@element-plus/icons'
+import { CaretBottom } from '@wisdom-plus/icons'
 </script>
 
 <style scoped>

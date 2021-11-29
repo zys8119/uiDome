@@ -109,7 +109,7 @@ If Element Plus is fully imported, it will add the following global methods for 
 If you prefer importing `MessageBox` on demand:
 
 ```ts
-import { ElMessageBox } from 'element-plus'
+import { ElMessageBox } from 'wisdom-plus'
 ```
 
 The corresponding methods are: `ElMessageBox`, `ElMessageBox.alert`, `ElMessageBox.confirm` and `ElMessageBox.prompt`. The parameters are the same as above.

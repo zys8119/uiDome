@@ -1,4 +1,4 @@
-import { on } from '@element-plus/utils/dom'
+import { on } from '@wisdom-plus/utils/dom'
 
 import type { DirectiveBinding, VNode, ObjectDirective } from 'vue'
 

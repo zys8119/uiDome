@@ -4,8 +4,8 @@ import {
   hasClass,
   getStyle,
   removeClass,
-} from '@element-plus/utils/dom'
-import getScrollBarWidth from '@element-plus/utils/scrollbar-width'
+} from '@wisdom-plus/utils/dom'
+import getScrollBarWidth from '@wisdom-plus/utils/scrollbar-width'
 import { isServer } from '../utils'
 
 export const useLockScreen = () => {

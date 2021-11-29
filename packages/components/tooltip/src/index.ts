@@ -2,10 +2,10 @@ import { defineComponent, h, ref, cloneVNode } from 'vue'
 import {
   default as ElPopper,
   popperDefaultProps,
-} from '@element-plus/components/popper'
-import { UPDATE_MODEL_EVENT } from '@element-plus/utils/constants'
-import { throwError } from '@element-plus/utils/error'
-import { getFirstValidNode } from '@element-plus/utils/vnode'
+} from '@wisdom-plus/components/popper'
+import { UPDATE_MODEL_EVENT } from '@wisdom-plus/utils/constants'
+import { throwError } from '@wisdom-plus/utils/error'
+import { getFirstValidNode } from '@wisdom-plus/utils/vnode'
 
 /**
  * ElTooltip

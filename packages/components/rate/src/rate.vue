@@ -45,15 +45,15 @@
 <script lang="ts">
 import { defineComponent, inject, computed, ref, watch } from 'vue'
 import { isObject, isArray } from '@vue/shared'
-import { elFormKey } from '@element-plus/tokens'
-import { hasClass } from '@element-plus/utils/dom'
-import { EVENT_CODE } from '@element-plus/utils/aria'
+import { elFormKey } from '@wisdom-plus/tokens'
+import { hasClass } from '@wisdom-plus/utils/dom'
+import { EVENT_CODE } from '@wisdom-plus/utils/aria'
 
-import { UPDATE_MODEL_EVENT } from '@element-plus/utils/constants'
-import { ElIcon } from '@element-plus/components/icon'
-import { StarFilled, Star } from '@element-plus/icons'
+import { UPDATE_MODEL_EVENT } from '@wisdom-plus/utils/constants'
+import { ElIcon } from '@wisdom-plus/components/icon'
+import { StarFilled, Star } from '@wisdom-plus/icons'
 import { rateProps, rateEmits } from './rate'
-import type { ElFormContext } from '@element-plus/tokens'
+import type { ElFormContext } from '@wisdom-plus/tokens'
 
 function getValueFromMap<T>(
   value: number,

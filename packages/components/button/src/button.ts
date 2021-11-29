@@ -1,5 +1,5 @@
-import { useFormItemProps } from '@element-plus/hooks'
-import { buildProps, definePropType } from '@element-plus/utils/props'
+import { useFormItemProps } from '@wisdom-plus/hooks'
+import { buildProps, definePropType } from '@wisdom-plus/utils/props'
 import type { ExtractPropTypes, Component } from 'vue'
 import type button from './button.vue'
 

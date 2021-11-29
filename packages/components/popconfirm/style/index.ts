@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/popconfirm.scss'
-import '@element-plus/components/popover/style/index'
+import '@wisdom-plus/components/base/style'
+import '@wisdom-plus/theme-chalk/src/popconfirm.scss'
+import '@wisdom-plus/components/popover/style/index'

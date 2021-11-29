@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/descriptions.scss'
-import '@element-plus/components/descriptions-item/style/index'
+import '@wisdom-plus/components/base/style'
+import '@wisdom-plus/theme-chalk/src/descriptions.scss'
+import '@wisdom-plus/components/descriptions-item/style/index'

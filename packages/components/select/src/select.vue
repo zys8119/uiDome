@@ -221,27 +221,27 @@ import {
   provide,
   computed,
 } from 'vue'
-import { ClickOutside } from '@element-plus/directives'
-import { useFocus, useLocaleInject } from '@element-plus/hooks'
-import ElInput from '@element-plus/components/input'
-import ElPopper, { Effect } from '@element-plus/components/popper'
-import ElScrollbar from '@element-plus/components/scrollbar'
-import ElTag from '@element-plus/components/tag'
-import ElIcon from '@element-plus/components/icon'
-import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@element-plus/utils/constants'
+import { ClickOutside } from '@wisdom-plus/directives'
+import { useFocus, useLocaleInject } from '@wisdom-plus/hooks'
+import ElInput from '@wisdom-plus/components/input'
+import ElPopper, { Effect } from '@wisdom-plus/components/popper'
+import ElScrollbar from '@wisdom-plus/components/scrollbar'
+import ElTag from '@wisdom-plus/components/tag'
+import ElIcon from '@wisdom-plus/components/icon'
+import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@wisdom-plus/utils/constants'
 import {
   addResizeListener,
   removeResizeListener,
-} from '@element-plus/utils/resize-event'
-import { isValidComponentSize } from '@element-plus/utils/validators'
-import { CircleClose, ArrowUp } from '@element-plus/icons'
+} from '@wisdom-plus/utils/resize-event'
+import { isValidComponentSize } from '@wisdom-plus/utils/validators'
+import { CircleClose, ArrowUp } from '@wisdom-plus/icons'
 import ElOption from './option.vue'
 import ElSelectMenu from './select-dropdown.vue'
 import { useSelect, useSelectStates } from './useSelect'
 import { selectKey } from './token'
 
 import type { PropType, Component } from 'vue'
-import type { ComponentSize } from '@element-plus/utils/types'
+import type { ComponentSize } from '@wisdom-plus/utils/types'
 import type { SelectContext } from './token'
 
 export default defineComponent({

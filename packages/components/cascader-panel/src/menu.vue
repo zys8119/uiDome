@@ -29,15 +29,15 @@
 
 <script lang="ts">
 import { computed, defineComponent, getCurrentInstance, inject, ref } from 'vue'
-import ElScrollbar from '@element-plus/components/scrollbar'
-import { useLocaleInject } from '@element-plus/hooks'
-import { generateId } from '@element-plus/utils/util'
+import ElScrollbar from '@wisdom-plus/components/scrollbar'
+import { useLocaleInject } from '@wisdom-plus/hooks'
+import { generateId } from '@wisdom-plus/utils/util'
 import ElCascaderNode from './node.vue'
 import { CASCADER_PANEL_INJECTION_KEY } from './types'
 import type { default as CascaderNode } from './node'
 
 import type { PropType } from 'vue'
-import type { TimeoutHandle, Nullable } from '@element-plus/utils/types'
+import type { TimeoutHandle, Nullable } from '@wisdom-plus/utils/types'
 
 export default defineComponent({
   name: 'ElCascaderMenu',

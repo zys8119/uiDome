@@ -1,7 +1,7 @@
 import Popper from './src/index.vue'
 
 import type { App } from 'vue'
-import type { SFCWithInstall } from '@element-plus/utils/types'
+import type { SFCWithInstall } from '@wisdom-plus/utils/types'
 
 Popper.install = (app: App): void => {
   app.component(Popper.name, Popper)

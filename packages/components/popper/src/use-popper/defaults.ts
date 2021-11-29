@@ -5,7 +5,7 @@ import type {
   Instance as PopperInstance,
   Options,
 } from '@popperjs/core'
-import type { Nullable } from '@element-plus/utils/types'
+import type { Nullable } from '@wisdom-plus/utils/types'
 
 export enum Effect {
   DARK = 'dark',

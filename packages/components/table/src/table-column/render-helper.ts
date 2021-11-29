@@ -1,5 +1,5 @@
 import { getCurrentInstance, h, ref, computed, watchEffect } from 'vue'
-import { debugWarn } from '@element-plus/utils/error'
+import { debugWarn } from '@wisdom-plus/utils/error'
 import { cellForced, defaultRenderCell, treeCellPrefix } from '../config'
 import { parseWidth, parseMinWidth } from '../util'
 

@@ -20,10 +20,10 @@ import {
   toRefs,
   watch,
 } from 'vue'
-import { EVENT_CODE } from '@element-plus/utils/aria'
-import { UPDATE_MODEL_EVENT } from '@element-plus/utils/constants'
-import { radioGroupKey } from '@element-plus/tokens'
-import { useFormItem } from '@element-plus/hooks'
+import { EVENT_CODE } from '@wisdom-plus/utils/aria'
+import { UPDATE_MODEL_EVENT } from '@wisdom-plus/utils/constants'
+import { radioGroupKey } from '@wisdom-plus/tokens'
+import { useFormItem } from '@wisdom-plus/hooks'
 import { radioGroupEmits, radioGroupProps } from './radio-group'
 import type { RadioGroupProps } from '..'
 

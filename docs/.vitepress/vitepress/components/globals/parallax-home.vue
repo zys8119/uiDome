@@ -142,21 +142,21 @@ useEventListener(window, 'scroll', handleScroll)
     <div class="footer-main">
       <h4>{{ homeLang['10'] }}</h4>
       <a
-        href="https://github.com/element-plus/element-plus"
+        href="https://github.com/wisdom-plus/wisdom-plus"
         class="footer-main-link"
         target="_blank"
       >
         {{ homeLang['11'] }}
       </a>
       <a
-        href="https://github.com/element-plus/element-plus/releases"
+        href="https://github.com/wisdom-plus/wisdom-plus/releases"
         class="footer-main-link"
         target="_blank"
       >
         {{ homeLang['12'] }}
       </a>
       <a
-        href="https://github.com/element-plus/element-plus-starter"
+        href="https://github.com/wisdom-plus/wisdom-plus-starter"
         class="footer-main-link"
         target="_blank"
       >
@@ -181,21 +181,21 @@ useEventListener(window, 'scroll', handleScroll)
         {{ homeLang['15'] }}
       </a>
       <a
-        href="https://github.com/element-plus/element-plus/issues"
+        href="https://github.com/wisdom-plus/wisdom-plus/issues"
         class="footer-main-link"
         target="_blank"
       >
         {{ homeLang['16'] }}
       </a>
       <a
-        href="https://github.com/element-plus/element-plus/blob/dev/.github/CONTRIBUTING.en-US.md"
+        href="https://github.com/wisdom-plus/wisdom-plus/blob/dev/.github/CONTRIBUTING.en-US.md"
         class="footer-main-link"
         target="_blank"
       >
         {{ homeLang['17'] }}
       </a>
       <a
-        href="https://segmentfault.com/t/element-plus"
+        href="https://segmentfault.com/t/wisdom-plus"
         class="footer-main-link"
         target="_blank"
       >

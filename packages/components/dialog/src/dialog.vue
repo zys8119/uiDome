@@ -69,11 +69,11 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { TrapFocus } from '@element-plus/directives'
-import { ElOverlay } from '@element-plus/components/overlay'
-import { ElIcon } from '@element-plus/components/icon'
-import { CloseComponents } from '@element-plus/utils/icon'
-import { useSameTarget } from '@element-plus/hooks'
+import { TrapFocus } from '@wisdom-plus/directives'
+import { ElOverlay } from '@wisdom-plus/components/overlay'
+import { ElIcon } from '@wisdom-plus/components/icon'
+import { CloseComponents } from '@wisdom-plus/utils/icon'
+import { useSameTarget } from '@wisdom-plus/hooks'
 import { dialogProps, dialogEmits } from './dialog'
 import { useDialog } from './use-dialog'
 

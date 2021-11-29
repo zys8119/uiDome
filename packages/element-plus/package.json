@@ -1,10 +1,10 @@
 {
-  "name": "element-plus",
+  "name": "wisdom-plus",
   "version": "0.0.0-dev.1",
   "description": "A Component Library for Vue 3",
-  "homepage": "https://element-plus.org/",
+  "homepage": "https://wisdom-plus.org/",
   "keywords": [
-    "element-plus",
+    "wisdom-plus",
     "element",
     "component library",
     "ui framework",
@@ -37,16 +37,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/element-plus/element-plus.git"
+    "url": "git+https://github.com/wisdom-plus/wisdom-plus.git"
   },
   "bugs": {
-    "url": "https://github.com/element-plus/element-plus/issues"
+    "url": "https://github.com/wisdom-plus/wisdom-plus/issues"
   },
   "peerDependencies": {
     "vue": "^3.2.0"
   },
   "dependencies": {
-    "@element-plus/icons": "^0.0.11",
+    "@wisdom-plus/icons": "^0.0.11",
     "@popperjs/core": "^2.10.2",
     "@vueuse/core": "^7.0.0",
     "async-validator": "^4.0.7",

@@ -146,19 +146,19 @@ import {
   onMounted,
   onUpdated,
 } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
-import { CircleClose, View as IconView } from '@element-plus/icons'
-import { ValidateComponentsMap } from '@element-plus/utils/icon'
-import { elFormKey, elFormItemKey } from '@element-plus/tokens'
-import { useAttrs, useFormItem } from '@element-plus/hooks'
-import { UPDATE_MODEL_EVENT } from '@element-plus/utils/constants'
-import { isObject } from '@element-plus/utils/util'
-import isServer from '@element-plus/utils/isServer'
-import { isKorean } from '@element-plus/utils/isDef'
+import { ElIcon } from '@wisdom-plus/components/icon'
+import { CircleClose, View as IconView } from '@wisdom-plus/icons'
+import { ValidateComponentsMap } from '@wisdom-plus/utils/icon'
+import { elFormKey, elFormItemKey } from '@wisdom-plus/tokens'
+import { useAttrs, useFormItem } from '@wisdom-plus/hooks'
+import { UPDATE_MODEL_EVENT } from '@wisdom-plus/utils/constants'
+import { isObject } from '@wisdom-plus/utils/util'
+import isServer from '@wisdom-plus/utils/isServer'
+import { isKorean } from '@wisdom-plus/utils/isDef'
 import { calcTextareaHeight } from './calc-textarea-height'
 import { inputProps, inputEmits } from './input'
 
-import type { StyleValue } from '@element-plus/utils/types'
+import type { StyleValue } from '@wisdom-plus/utils/types'
 
 type TargetElement = HTMLInputElement | HTMLTextAreaElement
 

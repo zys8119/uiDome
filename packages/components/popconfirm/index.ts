@@ -1,4 +1,4 @@
-import { withInstall } from '@element-plus/utils/with-install'
+import { withInstall } from '@wisdom-plus/utils/with-install'
 
 import Popconfirm from './src/popconfirm.vue'
 

@@ -1,5 +1,5 @@
-import { isString } from '@element-plus/utils/util'
-import { throwError } from '@element-plus/utils/error'
+import { isString } from '@wisdom-plus/utils/util'
+import { throwError } from '@wisdom-plus/utils/error'
 import buildList from '../builders/build-list'
 import { isHorizontal } from '../utils'
 import {

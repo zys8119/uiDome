@@ -1,7 +1,7 @@
 import { inject, computed, getCurrentInstance, unref } from 'vue'
-import { elFormKey, elFormItemKey } from '@element-plus/tokens'
-import { buildProps } from '@element-plus/utils/props'
-import { useGlobalConfig } from '@element-plus/utils/util'
+import { elFormKey, elFormItemKey } from '@wisdom-plus/tokens'
+import { buildProps } from '@wisdom-plus/utils/props'
+import { useGlobalConfig } from '@wisdom-plus/utils/util'
 
 import type { ExtractPropTypes } from 'vue'
 import type { MaybeRef } from '@vueuse/core'

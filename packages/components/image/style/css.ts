@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style/css'
-import '@element-plus/theme-chalk/el-image.css'
-import '@element-plus/components/image-viewer/style/css'
+import '@wisdom-plus/components/base/style/css'
+import '@wisdom-plus/theme-chalk/el-image.css'
+import '@wisdom-plus/components/image-viewer/style/css'

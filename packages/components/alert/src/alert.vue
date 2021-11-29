@@ -44,8 +44,8 @@
 </template>
 <script lang="ts">
 import { defineComponent, computed, ref } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
-import { TypeComponents, TypeComponentsMap } from '@element-plus/utils/icon'
+import { ElIcon } from '@wisdom-plus/components/icon'
+import { TypeComponents, TypeComponentsMap } from '@wisdom-plus/utils/icon'
 import { alertProps, alertEmits } from './alert'
 
 export default defineComponent({

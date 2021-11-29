@@ -1,7 +1,7 @@
 import { nextTick } from 'vue'
 import { mount } from '@vue/test-utils'
-import { rAF } from '@element-plus/test-utils/tick'
-import triggerCompositeClick from '@element-plus/test-utils/composite-click'
+import { rAF } from '@wisdom-plus/test-utils/tick'
+import triggerCompositeClick from '@wisdom-plus/test-utils/composite-click'
 import Dialog from '../'
 
 const AXIOM = 'Rem is the best girl'

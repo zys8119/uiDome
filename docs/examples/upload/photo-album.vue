@@ -12,7 +12,7 @@
   </el-dialog>
 </template>
 <script lang="ts">
-import { Plus } from '@element-plus/icons'
+import { Plus } from '@wisdom-plus/icons'
 export default {
   components: {
     Plus,

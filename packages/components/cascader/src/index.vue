@@ -160,38 +160,38 @@ import debounce from 'lodash/debounce'
 
 import ElCascaderPanel, {
   CommonProps,
-} from '@element-plus/components/cascader-panel'
-import ElInput from '@element-plus/components/input'
-import ElPopper, { Effect } from '@element-plus/components/popper'
-import ElScrollbar from '@element-plus/components/scrollbar'
-import ElTag from '@element-plus/components/tag'
-import ElIcon from '@element-plus/components/icon'
+} from '@wisdom-plus/components/cascader-panel'
+import ElInput from '@wisdom-plus/components/input'
+import ElPopper, { Effect } from '@wisdom-plus/components/popper'
+import ElScrollbar from '@wisdom-plus/components/scrollbar'
+import ElTag from '@wisdom-plus/components/tag'
+import ElIcon from '@wisdom-plus/components/icon'
 
-import { elFormKey, elFormItemKey } from '@element-plus/tokens'
-import { ClickOutside as Clickoutside } from '@element-plus/directives'
-import { useLocaleInject } from '@element-plus/hooks'
+import { elFormKey, elFormItemKey } from '@wisdom-plus/tokens'
+import { ClickOutside as Clickoutside } from '@wisdom-plus/directives'
+import { useLocaleInject } from '@wisdom-plus/hooks'
 
-import { EVENT_CODE, focusNode, getSibling } from '@element-plus/utils/aria'
-import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@element-plus/utils/constants'
-import isServer from '@element-plus/utils/isServer'
-import { useGlobalConfig } from '@element-plus/utils/util'
+import { EVENT_CODE, focusNode, getSibling } from '@wisdom-plus/utils/aria'
+import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '@wisdom-plus/utils/constants'
+import isServer from '@wisdom-plus/utils/isServer'
+import { useGlobalConfig } from '@wisdom-plus/utils/util'
 import {
   addResizeListener,
   removeResizeListener,
-} from '@element-plus/utils/resize-event'
-import { isValidComponentSize } from '@element-plus/utils/validators'
-import { isKorean } from '@element-plus/utils/isDef'
-import { CircleClose, Check, ArrowDown } from '@element-plus/icons'
+} from '@wisdom-plus/utils/resize-event'
+import { isValidComponentSize } from '@wisdom-plus/utils/validators'
+import { isKorean } from '@wisdom-plus/utils/isDef'
+import { CircleClose, Check, ArrowDown } from '@wisdom-plus/icons'
 
-import type { Options } from '@element-plus/components/popper'
+import type { Options } from '@wisdom-plus/components/popper'
 import type { ComputedRef, PropType, Ref } from 'vue'
-import type { ElFormContext, ElFormItemContext } from '@element-plus/tokens'
+import type { ElFormContext, ElFormItemContext } from '@wisdom-plus/tokens'
 import type {
   CascaderValue,
   CascaderNode,
   Tag,
-} from '@element-plus/components/cascader-panel'
-import type { ComponentSize } from '@element-plus/utils/types'
+} from '@wisdom-plus/components/cascader-panel'
+import type { ComponentSize } from '@wisdom-plus/utils/types'
 
 type cascaderPanelType = InstanceType<typeof ElCascaderPanel>
 type popperType = InstanceType<typeof ElPopper>

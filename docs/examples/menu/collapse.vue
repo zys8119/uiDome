@@ -50,7 +50,7 @@ import {
   Document,
   Menu as IconMenu,
   Setting,
-} from '@element-plus/icons'
+} from '@wisdom-plus/icons'
 
 export default defineComponent({
   components: {

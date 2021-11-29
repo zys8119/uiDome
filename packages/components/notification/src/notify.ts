@@ -1,8 +1,8 @@
 import { createVNode, render } from 'vue'
-import isServer from '@element-plus/utils/isServer'
-import PopupManager from '@element-plus/utils/popup-manager'
-import { isVNode } from '@element-plus/utils/util'
-import { debugWarn } from '@element-plus/utils/error'
+import isServer from '@wisdom-plus/utils/isServer'
+import PopupManager from '@wisdom-plus/utils/popup-manager'
+import { isVNode } from '@wisdom-plus/utils/util'
+import { debugWarn } from '@wisdom-plus/utils/error'
 import NotificationConstructor from './notification.vue'
 import { notificationTypes } from './notification'
 

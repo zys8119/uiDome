@@ -1,9 +1,9 @@
 import { nextTick } from 'vue'
-import { on, off } from '@element-plus/utils/dom'
+import { on, off } from '@wisdom-plus/utils/dom'
 import {
   obtainAllFocusableElements,
   EVENT_CODE,
-} from '@element-plus/utils/aria'
+} from '@wisdom-plus/utils/aria'
 
 import type { ObjectDirective } from 'vue'
 

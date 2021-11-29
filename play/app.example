@@ -12,7 +12,7 @@
 </template>
 
 <script setup lang="ts">
-import { Check, Menu as MenuIcon } from "@element-plus/icons";
+import { Check, Menu as MenuIcon } from "@wisdom-plus/icons";
 // code here
 </script>
 

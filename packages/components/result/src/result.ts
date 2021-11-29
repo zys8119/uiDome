@@ -1,10 +1,10 @@
-import { buildProps } from '@element-plus/utils/props'
+import { buildProps } from '@wisdom-plus/utils/props'
 import {
   WarningFilled,
   CircleCheckFilled,
   CircleCloseFilled,
   InfoFilled,
-} from '@element-plus/icons'
+} from '@wisdom-plus/icons'
 import type { Component, ExtractPropTypes } from 'vue'
 
 export const IconMap = {

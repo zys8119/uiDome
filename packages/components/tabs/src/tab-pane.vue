@@ -23,8 +23,8 @@ import {
   reactive,
 } from 'vue'
 import { eagerComputed } from '@vueuse/core'
-import { tabsRootContextKey } from '@element-plus/tokens'
-import { throwError } from '@element-plus/utils/error'
+import { tabsRootContextKey } from '@wisdom-plus/tokens'
+import { throwError } from '@wisdom-plus/utils/error'
 import { tabPaneProps } from './tab-pane'
 
 const COMPONENT_NAME = 'ElTabPane'

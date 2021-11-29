@@ -78,7 +78,7 @@ Element Plus has added a global method `$notify` for `app.config.globalPropertie
 ## Local import
 
 ```javascript
-import { ElNotification } from 'element-plus'
+import { ElNotification } from 'wisdom-plus'
 ```
 
 In this case you should call `ElNotification(options)`. We have also registered methods for different types, e.g. `ElNotification.success(options)`. You can call `ElNotification.closeAll()` to manually close all the instances.

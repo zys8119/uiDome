@@ -7,7 +7,7 @@ import {
   Loading,
   CircleCheck,
   CircleClose,
-} from '@element-plus/icons'
+} from '@wisdom-plus/icons'
 import { definePropType } from './props'
 import type { Component } from 'vue'
 

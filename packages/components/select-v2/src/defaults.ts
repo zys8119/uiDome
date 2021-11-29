@@ -1,10 +1,10 @@
-import { isValidComponentSize } from '@element-plus/utils/validators'
-import { CircleClose } from '@element-plus/icons'
+import { isValidComponentSize } from '@wisdom-plus/utils/validators'
+import { CircleClose } from '@wisdom-plus/icons'
 
 import type { PropType, Component } from 'vue'
-import type { ComponentSize } from '@element-plus/utils/types'
+import type { ComponentSize } from '@wisdom-plus/utils/types'
 import type { OptionType } from './select.types'
-import type { Options } from '@element-plus/components/popper'
+import type { Options } from '@wisdom-plus/components/popper'
 
 export const SelectProps = {
   allowCreate: Boolean,

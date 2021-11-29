@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
-import { ElMessageBox } from 'element-plus'
+import { ElMessageBox } from 'wisdom-plus'
 import nprogress from 'nprogress'
 import { useToggle } from '../composables/toggle'
 import { useSidebar } from '../composables/sidebar'
@@ -55,7 +55,7 @@ onMounted(async () => {
   )
 
   if (lang.value === 'zh-CN') {
-    if (location.host === 'element-plus.gitee.io') return
+    if (location.host === 'wisdom-plus.gitee.io') return
     try {
       await ElMessageBox.confirm(
         '建议大陆用户访问部署在国内的站点，是否跳转？',
@@ -66,7 +66,7 @@ onMounted(async () => {
         }
       )
       const toLang = '/zh-CN/'
-      location.href = `https://element-plus.gitee.io${toLang}${location.pathname.slice(
+      location.href = `https://wisdom-plus.gitee.io${toLang}${location.pathname.slice(
         toLang.length
       )}`
     } catch (e) {

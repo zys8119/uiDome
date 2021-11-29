@@ -61,19 +61,19 @@ import {
   watch,
   onMounted,
 } from 'vue'
-import ElButton from '@element-plus/components/button'
-import ElPopper, { Effect } from '@element-plus/components/popper'
-import ElScrollbar from '@element-plus/components/scrollbar'
-import ElIcon from '@element-plus/components/icon'
-import { on, addClass, removeClass } from '@element-plus/utils/dom'
-import { addUnit } from '@element-plus/utils/util'
-import { ArrowDown } from '@element-plus/icons'
+import ElButton from '@wisdom-plus/components/button'
+import ElPopper, { Effect } from '@wisdom-plus/components/popper'
+import ElScrollbar from '@wisdom-plus/components/scrollbar'
+import ElIcon from '@wisdom-plus/components/icon'
+import { on, addClass, removeClass } from '@wisdom-plus/utils/dom'
+import { addUnit } from '@wisdom-plus/utils/util'
+import { ArrowDown } from '@wisdom-plus/icons'
 import { useDropdown } from './useDropdown'
 
-import type { Placement } from '@element-plus/components/popper'
+import type { Placement } from '@wisdom-plus/components/popper'
 import type { PropType, ComponentPublicInstance, CSSProperties } from 'vue'
-import type { TriggerType } from '@element-plus/hooks/use-popper/use-target-events'
-import type { ButtonType } from '@element-plus/components/button/src/types'
+import type { TriggerType } from '@wisdom-plus/hooks/use-popper/use-target-events'
+import type { ButtonType } from '@wisdom-plus/components/button/src/types'
 
 type Nullable<T> = null | T
 const { ButtonGroup: ElButtonGroup } = ElButton

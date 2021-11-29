@@ -40,8 +40,8 @@
 import { computed, defineComponent, ref } from 'vue'
 import dayjs from 'dayjs'
 import localeData from 'dayjs/plugin/localeData'
-import { useLocaleInject } from '@element-plus/hooks'
-import { rangeArr } from '@element-plus/components/time-picker'
+import { useLocaleInject } from '@wisdom-plus/hooks'
+import { rangeArr } from '@wisdom-plus/components/time-picker'
 import type { Dayjs } from 'dayjs'
 import type { PropType } from 'vue'
 dayjs.extend(localeData)

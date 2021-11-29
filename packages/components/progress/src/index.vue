@@ -77,14 +77,14 @@
 
 <script lang="ts">
 import { computed, defineComponent } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
+import { ElIcon } from '@wisdom-plus/components/icon'
 import {
   WarningFilled,
   CircleCheck,
   CircleClose,
   Check,
   Close,
-} from '@element-plus/icons'
+} from '@wisdom-plus/icons'
 
 import type { PropType, SVGAttributes } from 'vue'
 

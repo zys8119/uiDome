@@ -36,7 +36,7 @@
   </el-dialog>
 </template>
 <script lang="ts">
-import { Plus, ZoomIn, Download, Delete } from '@element-plus/icons'
+import { Plus, ZoomIn, Download, Delete } from '@wisdom-plus/icons'
 export default {
   components: {
     Plus,

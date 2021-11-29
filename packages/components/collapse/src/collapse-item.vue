@@ -50,10 +50,10 @@
 </template>
 <script lang="ts">
 import { defineComponent, inject, computed, ref } from 'vue'
-import { generateId } from '@element-plus/utils/util'
-import ElCollapseTransition from '@element-plus/components/collapse-transition'
-import ElIcon from '@element-plus/components/icon'
-import { ArrowRight } from '@element-plus/icons'
+import { generateId } from '@wisdom-plus/utils/util'
+import ElCollapseTransition from '@wisdom-plus/components/collapse-transition'
+import ElIcon from '@wisdom-plus/components/icon'
+import { ArrowRight } from '@wisdom-plus/icons'
 
 import type { PropType } from 'vue'
 import type { CollapseProvider } from './collapse.type'

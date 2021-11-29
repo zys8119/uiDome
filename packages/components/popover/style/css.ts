@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style/css'
-import '@element-plus/theme-chalk/el-popover.css'
-import '@element-plus/components/popper/style/css'
+import '@wisdom-plus/components/base/style/css'
+import '@wisdom-plus/theme-chalk/el-popover.css'
+import '@wisdom-plus/components/popper/style/css'

@@ -19,5 +19,5 @@
   </el-row>
 </template>
 <script setup lang="ts">
-import { Search } from '@element-plus/icons'
+import { Search } from '@wisdom-plus/icons'
 </script>

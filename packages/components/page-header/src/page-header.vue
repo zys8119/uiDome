@@ -17,9 +17,9 @@
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
+import { ElIcon } from '@wisdom-plus/components/icon'
 
-import { useLocaleInject } from '@element-plus/hooks'
+import { useLocaleInject } from '@wisdom-plus/hooks'
 import { pageHeaderEmits, pageHeaderProps } from './page-header'
 
 export default defineComponent({

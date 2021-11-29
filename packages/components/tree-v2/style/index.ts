@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/tree.scss'
-import '@element-plus/components/checkbox/style/index'
+import '@wisdom-plus/components/base/style'
+import '@wisdom-plus/theme-chalk/src/tree.scss'
+import '@wisdom-plus/components/checkbox/style/index'

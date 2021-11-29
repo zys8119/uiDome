@@ -1,8 +1,8 @@
 import { computed, getCurrentInstance, inject, provide, ref } from 'vue'
-import English from '@element-plus/locale/lang/en'
-import { buildProp, definePropType } from '@element-plus/utils/props'
+import English from '@wisdom-plus/locale/lang/en'
+import { buildProp, definePropType } from '@wisdom-plus/utils/props'
 import type { InjectionKey, Ref } from 'vue'
-import type { Language } from '@element-plus/locale'
+import type { Language } from '@wisdom-plus/locale'
 
 export const useLocaleProps = {
   locale: buildProp({
@@ -23,7 +23,7 @@ export const LocaleInjectionKey =
 
 // this is meant to fix global methods like `ElMessage(opts)`, this way we can inject current locale
 // into the component as default injection value.
-// refer to: https://github.com/element-plus/element-plus/issues/2610#issuecomment-887965266
+// refer to: https://github.com/wisdom-plus/wisdom-plus/issues/2610#issuecomment-887965266
 let localeObjCache: LocaleContext
 
 function translate(path, option, current) {

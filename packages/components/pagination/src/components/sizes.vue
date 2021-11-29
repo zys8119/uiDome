@@ -20,12 +20,12 @@
 <script lang="ts">
 import { defineComponent, watch, computed, ref } from 'vue'
 import isEqual from 'lodash/isEqual'
-import { ElSelect, ElOption } from '@element-plus/components/select'
-import { useLocaleInject } from '@element-plus/hooks'
-import { buildProps, definePropType, mutable } from '@element-plus/utils/props'
+import { ElSelect, ElOption } from '@wisdom-plus/components/select'
+import { useLocaleInject } from '@wisdom-plus/hooks'
+import { buildProps, definePropType, mutable } from '@wisdom-plus/utils/props'
 import { usePagination } from '../usePagination'
 
-import type { Nullable } from '@element-plus/utils/types'
+import type { Nullable } from '@wisdom-plus/utils/types'
 
 const paginationSizesProps = buildProps({
   pageSize: {

@@ -22,7 +22,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { ElMessageBox } from 'element-plus'
+import { ElMessageBox } from 'wisdom-plus'
 
 export default defineComponent({
   setup() {

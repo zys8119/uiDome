@@ -1,6 +1,6 @@
 import { provide, defineComponent } from 'vue'
-import { useLocale } from '@element-plus/hooks'
-import { configProviderContextKey } from '@element-plus/tokens'
+import { useLocale } from '@wisdom-plus/hooks'
+import { configProviderContextKey } from '@wisdom-plus/tokens'
 import { configProviderProps } from './config-provider'
 
 export const ConfigProvider = defineComponent({

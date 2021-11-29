@@ -26,7 +26,7 @@ const props = defineProps({
 
 const globalMapper = {
   "'vue'": 'Vue',
-  "'element-plus'": 'ElementPlus',
+  "'wisdom-plus'": 'ElementPlus',
 }
 
 const js = computed(() => {
@@ -62,12 +62,12 @@ app.mount("#app");
 const data = computed(() => {
   return JSON.stringify({
     html: `<script src="//unpkg.com/vue@next"><${'/script'}>
-<script src="//unpkg.com/element-plus/dist/index.full.js"><${'/script'}>
+<script src="//unpkg.com/wisdom-plus/dist/index.full.js"><${'/script'}>
 <div id="app">
   ${decodeURIComponent(props.html).trim()}
 </div>
 `,
-    css: `@import url("//unpkg.com/element-plus/dist/index.css");
+    css: `@import url("//unpkg.com/wisdom-plus/dist/index.css");
 ${decodeURIComponent(props.css).trim()}
 `,
     js: js.value,

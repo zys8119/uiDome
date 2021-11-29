@@ -10,10 +10,10 @@ import {
   withCtx,
   withDirectives,
 } from 'vue'
-import { removeClass } from '@element-plus/utils/dom'
+import { removeClass } from '@wisdom-plus/utils/dom'
 
 import type { VNode } from 'vue'
-import type { Nullable } from '@element-plus/utils/types'
+import type { Nullable } from '@wisdom-plus/utils/types'
 import type {
   ILoadingCreateComponentParams,
   ILoadingInstance,

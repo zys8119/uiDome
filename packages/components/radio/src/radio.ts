@@ -1,9 +1,9 @@
 import { ref, computed, inject } from 'vue'
-import { buildProps } from '@element-plus/utils/props'
-import { UPDATE_MODEL_EVENT } from '@element-plus/utils/constants'
-import { isBool, isString, isNumber } from '@element-plus/utils/util'
-import { radioGroupKey } from '@element-plus/tokens'
-import { useFormItem, useFormItemProps } from '@element-plus/hooks'
+import { buildProps } from '@wisdom-plus/utils/props'
+import { UPDATE_MODEL_EVENT } from '@wisdom-plus/utils/constants'
+import { isBool, isString, isNumber } from '@wisdom-plus/utils/util'
+import { radioGroupKey } from '@wisdom-plus/tokens'
+import { useFormItem, useFormItemProps } from '@wisdom-plus/hooks'
 import type { ExtractPropTypes, SetupContext } from 'vue'
 
 export const radioPropsBase = buildProps({

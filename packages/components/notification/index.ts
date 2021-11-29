@@ -1,4 +1,4 @@
-import { withInstallFunction } from '@element-plus/utils/with-install'
+import { withInstallFunction } from '@wisdom-plus/utils/with-install'
 
 import Notify from './src/notify'
 

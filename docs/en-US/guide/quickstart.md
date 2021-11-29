@@ -16,8 +16,8 @@ If you don’t care about the bundle size so much, it’s more convenient to use
 ```typescript
 // main.ts
 import { createApp } from 'vue'
-import ElementPlus from 'element-plus'
-import 'element-plus/dist/index.css'
+import ElementPlus from 'wisdom-plus'
+import 'wisdom-plus/dist/index.css'
 import App from './App.vue'
 
 const app = createApp(App)
@@ -35,7 +35,7 @@ If you use volar, please add the global component type definition to `compilerOp
 {
   "compilerOptions": {
     // ...
-    "types": ["element-plus/global"]
+    "types": ["wisdom-plus/global"]
   }
 }
 ```
@@ -95,8 +95,8 @@ For more bundlers ([Rollup](https://rollupjs.org/), [Vue CLI](https://cli.vuejs.
 Element Plus provides out of box [Tree Shaking](https://webpack.js.org/guides/tree-shaking/)
 functionalities based on ES Module.
 
-But you need install [unplugin-element-plus](https://github.com/element-plus/unplugin-element-plus) for style import.
-And refer to the [docs](https://github.com/element-plus/unplugin-element-plus#readme) for how to configure it.
+But you need install [unplugin-wisdom-plus](https://github.com/wisdom-plus/unplugin-wisdom-plus) for style import.
+And refer to the [docs](https://github.com/wisdom-plus/unplugin-wisdom-plus#readme) for how to configure it.
 
 > App.vue
 
@@ -105,7 +105,7 @@ And refer to the [docs](https://github.com/element-plus/unplugin-element-plus#re
   <el-button>I am ElButton</el-button>
 </template>
 <script>
-  import { ElButton } from 'element-plus'
+  import { ElButton } from 'wisdom-plus'
   export default {
     components: { ElButton },
   }
@@ -114,7 +114,7 @@ And refer to the [docs](https://github.com/element-plus/unplugin-element-plus#re
 
 ```ts
 // vite.config.ts
-import ElementPlus from 'unplugin-element-plus/vite'
+import ElementPlus from 'unplugin-wisdom-plus/vite'
 
 export default {
   plugins: [ElementPlus()],
@@ -125,15 +125,15 @@ export default {
 
 ### Vue CLI
 
-We prepared a plugin [Element Plus VueCLI plugin](https://github.com/element-plus/vue-cli-plugin-element-plus).
+We prepared a plugin [Element Plus VueCLI plugin](https://github.com/wisdom-plus/vue-cli-plugin-wisdom-plus).
 For [vue-cli](https://cli.vuejs.org/), you can setup a project based
 on Element Plus easily.
 
 ### Using Starter Kit
 
-We provide a general [Project Template](https://github.com/element-plus/element-plus-starter),
-also a [Vite Template](https://github.com/element-plus/element-plus-vite-starter).
-For Laravel users we have a [Laravel Template](https://github.com/element-plus/element-plus-in-laravel-starter).
+We provide a general [Project Template](https://github.com/wisdom-plus/wisdom-plus-starter),
+also a [Vite Template](https://github.com/wisdom-plus/wisdom-plus-vite-starter).
+For Laravel users we have a [Laravel Template](https://github.com/wisdom-plus/wisdom-plus-in-laravel-starter).
 
 ## Global Configuration
 
@@ -145,7 +145,7 @@ Full import:
 
 ```ts
 import { createApp } from 'vue'
-import ElementPlus from 'element-plus'
+import ElementPlus from 'wisdom-plus'
 import App from './App.vue'
 
 const app = createApp(App)
@@ -156,7 +156,7 @@ On-demand:
 
 ```ts
 import { createApp } from 'vue'
-import { ElButton } from 'element-plus'
+import { ElButton } from 'wisdom-plus'
 import App from './App.vue'
 
 const app = createApp(App)

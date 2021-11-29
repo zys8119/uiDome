@@ -1,4 +1,4 @@
-import { rAF, cAF } from '@element-plus/utils/raf'
+import { rAF, cAF } from '@wisdom-plus/utils/raf'
 import { isFF } from '../utils'
 import { HORIZONTAL, VERTICAL } from '../defaults'
 

@@ -7,10 +7,10 @@ import {
   getCurrentInstance,
   watch,
 } from 'vue'
-import { useLocaleInject } from '@element-plus/hooks'
-import { debugWarn } from '@element-plus/utils/error'
-import { buildProps, definePropType, mutable } from '@element-plus/utils/props'
-import { elPaginationKey } from '@element-plus/tokens'
+import { useLocaleInject } from '@wisdom-plus/hooks'
+import { debugWarn } from '@wisdom-plus/utils/error'
+import { buildProps, definePropType, mutable } from '@wisdom-plus/utils/props'
+import { elPaginationKey } from '@wisdom-plus/tokens'
 
 import Prev from './components/prev.vue'
 import Next from './components/next.vue'

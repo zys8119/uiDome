@@ -12,8 +12,8 @@ import {
   withDirectives,
   h,
 } from 'vue'
-import { ClickOutside } from '@element-plus/directives'
-import { throwError } from '@element-plus/utils/error'
+import { ClickOutside } from '@wisdom-plus/directives'
+import { throwError } from '@wisdom-plus/utils/error'
 
 import usePopper from './use-popper/index'
 import defaultProps from './use-popper/defaults'

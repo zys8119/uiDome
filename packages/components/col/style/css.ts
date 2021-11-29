@@ -1,2 +1,2 @@
-import '@element-plus/components/base/style/css'
-import '@element-plus/theme-chalk/el-col.css'
+import '@wisdom-plus/components/base/style/css'
+import '@wisdom-plus/theme-chalk/el-col.css'

@@ -1,11 +1,11 @@
 import { h, ref, inject, reactive, nextTick } from 'vue'
 import { mount } from '@vue/test-utils'
-import { LocaleInjectionKey } from '@element-plus/hooks'
-import Chinese from '@element-plus/locale/lang/zh-cn'
-import English from '@element-plus/locale/lang/en'
-import { ElButton } from '@element-plus/components'
+import { LocaleInjectionKey } from '@wisdom-plus/hooks'
+import Chinese from '@wisdom-plus/locale/lang/zh-cn'
+import English from '@wisdom-plus/locale/lang/en'
+import { ElButton } from '@wisdom-plus/components'
 import { ConfigProvider } from '../src'
-import type { Language } from '@element-plus/locale'
+import type { Language } from '@wisdom-plus/locale'
 
 const TestComp = {
   setup() {

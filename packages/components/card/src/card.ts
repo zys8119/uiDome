@@ -1,6 +1,6 @@
-import { buildProps, definePropType } from '@element-plus/utils/props'
+import { buildProps, definePropType } from '@wisdom-plus/utils/props'
 import type { ExtractPropTypes } from 'vue'
-import type { StyleValue } from '@element-plus/utils/types'
+import type { StyleValue } from '@wisdom-plus/utils/types'
 
 export const cardProps = buildProps({
   header: {

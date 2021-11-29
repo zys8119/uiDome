@@ -78,11 +78,11 @@ import throttle from 'lodash/throttle'
 import {
   addResizeListener,
   removeResizeListener,
-} from '@element-plus/utils/resize-event'
-import { ElIcon } from '@element-plus/components/icon'
-import { ArrowLeft, ArrowRight } from '@element-plus/icons'
+} from '@wisdom-plus/utils/resize-event'
+import { ElIcon } from '@wisdom-plus/components/icon'
+import { ArrowLeft, ArrowRight } from '@wisdom-plus/icons'
 
-import { debugWarn } from '@element-plus/utils/error'
+import { debugWarn } from '@wisdom-plus/utils/error'
 import type {
   ICarouselProps,
   CarouselItem,

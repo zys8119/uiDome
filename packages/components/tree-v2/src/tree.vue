@@ -43,8 +43,8 @@
 
 <script lang="ts">
 import { defineComponent, getCurrentInstance, provide } from 'vue'
-import { useLocaleInject } from '@element-plus/hooks'
-import { FixedSizeList } from '@element-plus/components/virtual-list'
+import { useLocaleInject } from '@wisdom-plus/hooks'
+import { FixedSizeList } from '@wisdom-plus/components/virtual-list'
 import { useTree } from './composables/useTree'
 import ElTreeNode from './tree-node.vue'
 import { ROOT_TREE_INJECTION_KEY, treeEmits, treeProps } from './virtual-tree'

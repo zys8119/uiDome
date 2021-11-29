@@ -1,6 +1,6 @@
 import { onBeforeUnmount } from 'vue'
 
-import type { TimeoutHandle } from '@element-plus/utils/types'
+import type { TimeoutHandle } from '@wisdom-plus/utils/types'
 
 export default function () {
   let timeoutHandle: TimeoutHandle

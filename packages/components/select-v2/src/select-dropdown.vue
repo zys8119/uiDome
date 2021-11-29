@@ -10,18 +10,18 @@ import {
   withKeys,
   withModifiers,
 } from 'vue'
-import { getValueByPath, isUndefined, isObject } from '@element-plus/utils/util'
-// import { addResizeListener, removeResizeListener, ResizableElement } from '@element-plus/utils/resize-event'
+import { getValueByPath, isUndefined, isObject } from '@wisdom-plus/utils/util'
+// import { addResizeListener, removeResizeListener, ResizableElement } from '@wisdom-plus/utils/resize-event'
 import {
   FixedSizeList,
   DynamicSizeList,
-} from '@element-plus/components/virtual-list'
+} from '@wisdom-plus/components/virtual-list'
 import GroupItem from './group-item.vue'
 import OptionItem from './option-item.vue'
 
 import { selectV2InjectionKey } from './token'
 
-import type { ItemProps } from '@element-plus/components/virtual-list'
+import type { ItemProps } from '@wisdom-plus/components/virtual-list'
 import type { OptionItemProps, Option } from './select.types'
 
 export default defineComponent({

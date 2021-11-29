@@ -68,5 +68,5 @@ import {
   CirclePlus,
   CirclePlusFilled,
   Plus,
-} from '@element-plus/icons'
+} from '@wisdom-plus/icons'
 </script>

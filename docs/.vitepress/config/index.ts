@@ -46,15 +46,15 @@ export const config: UserConfig = {
   title: 'Element Plus',
   head,
   themeConfig: {
-    repo: 'element-plus/element-plus',
+    repo: 'wisdom-plus/wisdom-plus',
     docsDir: 'docs',
 
     editLinks: true,
     editLinkText: 'Edit this page on GitHub',
     lastUpdated: 'Last Updated',
 
-    logo: '/images/element-plus-logo.svg',
-    logoSmall: '/images/element-plus-logo-small.svg',
+    logo: '/images/wisdom-plus-logo.svg',
+    logoSmall: '/images/wisdom-plus-logo-small.svg',
     sidebars,
     nav,
     agolia: {

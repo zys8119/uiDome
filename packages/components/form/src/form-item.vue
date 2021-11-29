@@ -57,14 +57,14 @@ import {
   addUnit,
   getPropByPath,
   useGlobalConfig,
-} from '@element-plus/utils/util'
-import { isValidComponentSize } from '@element-plus/utils/validators'
-import { elFormItemKey, elFormKey } from '@element-plus/tokens'
+} from '@wisdom-plus/utils/util'
+import { isValidComponentSize } from '@wisdom-plus/utils/validators'
+import { elFormItemKey, elFormKey } from '@wisdom-plus/tokens'
 import LabelWrap from './label-wrap'
 
 import type { PropType, CSSProperties } from 'vue'
-import type { ComponentSize } from '@element-plus/utils/types'
-import type { ElFormContext, ValidateFieldCallback } from '@element-plus/tokens'
+import type { ComponentSize } from '@wisdom-plus/utils/types'
+import type { ElFormContext, ValidateFieldCallback } from '@wisdom-plus/tokens'
 import type { FormItemRule } from './form.type'
 
 export default defineComponent({

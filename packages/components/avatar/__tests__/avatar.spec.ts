@@ -1,11 +1,11 @@
 import { nextTick } from 'vue'
 import { mount } from '@vue/test-utils'
-import { User } from '@element-plus/icons'
+import { User } from '@wisdom-plus/icons'
 import {
   IMAGE_SUCCESS,
   IMAGE_FAIL,
   mockImageEvent,
-} from '@element-plus/test-utils'
+} from '@wisdom-plus/test-utils'
 
 import Avatar from '../src/avatar.vue'
 

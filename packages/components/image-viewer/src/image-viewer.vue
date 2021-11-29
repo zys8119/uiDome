@@ -87,10 +87,10 @@ import {
   markRaw,
 } from 'vue'
 import { useEventListener } from '@vueuse/core'
-import ElIcon from '@element-plus/components/icon'
-import { useLocaleInject } from '@element-plus/hooks'
-import { EVENT_CODE } from '@element-plus/utils/aria'
-import { rafThrottle, isFirefox } from '@element-plus/utils/util'
+import ElIcon from '@wisdom-plus/components/icon'
+import { useLocaleInject } from '@wisdom-plus/hooks'
+import { EVENT_CODE } from '@wisdom-plus/utils/aria'
+import { rafThrottle, isFirefox } from '@wisdom-plus/utils/util'
 import {
   Close,
   ArrowLeft,
@@ -101,7 +101,7 @@ import {
   RefreshRight,
   FullScreen,
   ScaleToOriginal,
-} from '@element-plus/icons'
+} from '@wisdom-plus/icons'
 import { imageViewerProps, imageViewerEmits } from './image-viewer'
 
 import type { CSSProperties } from 'vue'

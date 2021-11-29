@@ -18,7 +18,7 @@
 
 <script lang="ts">
 import { computed, defineComponent } from 'vue'
-import { useLocaleInject } from '@element-plus/hooks'
+import { useLocaleInject } from '@wisdom-plus/hooks'
 import ImgEmpty from './img-empty.vue'
 import { emptyProps } from './empty'
 

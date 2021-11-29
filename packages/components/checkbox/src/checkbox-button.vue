@@ -50,7 +50,7 @@
 </template>
 <script lang="ts">
 import { defineComponent, computed } from 'vue'
-import { UPDATE_MODEL_EVENT } from '@element-plus/utils/constants'
+import { UPDATE_MODEL_EVENT } from '@wisdom-plus/utils/constants'
 import { useCheckbox, useCheckboxGroup, useCheckboxProps } from './useCheckbox'
 
 export default defineComponent({

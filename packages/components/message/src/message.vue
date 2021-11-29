@@ -49,10 +49,10 @@
 <script lang="ts">
 import { defineComponent, computed, ref, onMounted, watch } from 'vue'
 import { useEventListener, useTimeoutFn } from '@vueuse/core'
-import { EVENT_CODE } from '@element-plus/utils/aria'
-import ElBadge from '@element-plus/components/badge'
-import { ElIcon } from '@element-plus/components/icon'
-import { TypeComponents, TypeComponentsMap } from '@element-plus/utils/icon'
+import { EVENT_CODE } from '@wisdom-plus/utils/aria'
+import ElBadge from '@wisdom-plus/components/badge'
+import { ElIcon } from '@wisdom-plus/components/icon'
+import { TypeComponents, TypeComponentsMap } from '@wisdom-plus/utils/icon'
 
 import { messageEmits, messageProps } from './message'
 

@@ -10,10 +10,10 @@ import {
   withModifiers,
   unref,
 } from 'vue'
-import { BAR_MAP } from '@element-plus/components/scrollbar'
-import { on, off } from '@element-plus/utils/dom'
-import { rAF, cAF } from '@element-plus/utils/raf'
-import isServer from '@element-plus/utils/isServer'
+import { BAR_MAP } from '@wisdom-plus/components/scrollbar'
+import { on, off } from '@wisdom-plus/utils/dom'
+import { rAF, cAF } from '@wisdom-plus/utils/raf'
+import isServer from '@wisdom-plus/utils/isServer'
 
 import { SCROLLBAR_MIN_SIZE, HORIZONTAL, ScrollbarDirKey } from '../defaults'
 import { virtualizedScrollbarProps } from '../props'

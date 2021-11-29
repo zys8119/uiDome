@@ -1,6 +1,6 @@
 import { defineComponent, Fragment, h, nextTick, ref } from 'vue'
 import { mount } from '@vue/test-utils'
-import { getCssVariable } from '@element-plus/test-utils/dom'
+import { getCssVariable } from '@wisdom-plus/test-utils/dom'
 import { useTransition, useTransitionProps } from '../use-transition'
 
 const transitionShow = 'show'

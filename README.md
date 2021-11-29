@@ -6,15 +6,15 @@
 
 <p align="center">
 
-  <a href="https://www.npmjs.org/package/element-plus">
+  <a href="https://www.npmjs.org/package/wisdom-plus">
 
-    <img src="https://img.shields.io/npm/v/element-plus.svg">
+    <img src="https://img.shields.io/npm/v/wisdom-plus.svg">
 
   </a>
 
-  <a href="https://npmcharts.com/compare/element-plus?minimal=true">
+  <a href="https://npmcharts.com/compare/wisdom-plus?minimal=true">
 
-    <img src="http://img.shields.io/npm/dm/element-plus.svg">
+    <img src="http://img.shields.io/npm/dm/wisdom-plus.svg">
 
   </a>
 
@@ -32,7 +32,7 @@
 
 [comment]: <> (If you are looking for previous version website, here is the link.)
 
-[comment]: <> ([Element Plus Documentation Archived]&#40;https://github.com/element-plus/doc-archive&#41;)
+[comment]: <> ([Element Plus Documentation Archived]&#40;https://github.com/wisdom-plus/doc-archive&#41;)
 
 [comment]: <> (The new website is launched at 17th Sep 2021.)
 
@@ -44,11 +44,11 @@
 
 #### Try it with code sandbox
 
-[comment]: <> ([![Edit element-plus]&#40;https://codesandbox.io/static/img/play-codesandbox.svg&#41;]&#40;https://codesandbox.io/s/element-plus-demo-dxtcr&#41;)
+[comment]: <> ([![Edit wisdom-plus]&#40;https://codesandbox.io/static/img/play-codesandbox.svg&#41;]&#40;https://codesandbox.io/s/wisdom-plus-demo-dxtcr&#41;)
 
 #### Try it with our built-in playground
 
-[comment]: <> ([Playground]&#40;https://play.element-plus.org/&#41;)
+[comment]: <> ([Playground]&#40;https://play.wisdom-plus.org/&#41;)
 
 [comment]: <> (<p align="center">)
 
@@ -106,19 +106,19 @@
 
 [comment]: <> (Element Plus is translated to multiple languages, you can click the badge to help up update the translation or apply to become)
 
-[comment]: <> (a proofreader [![Crowdin]&#40;https://badges.crowdin.net/element-plus/localized.svg&#41;]&#40;https://crowdin.com/project/element-plus&#41;)
+[comment]: <> (a proofreader [![Crowdin]&#40;https://badges.crowdin.net/wisdom-plus/localized.svg&#41;]&#40;https://crowdin.com/project/wisdom-plus&#41;)
 
 ## Documentation
 
-[comment]: <> (You can find for more details, API, and other docs on [https://element-plus.org]&#40;https://element-plus.org/&#41;)
+[comment]: <> (You can find for more details, API, and other docs on [https://wisdom-plus.org]&#40;https://wisdom-plus.org/&#41;)
 
-[comment]: <> (国内[加速镜像站点]&#40;https://element-plus.gitee.io/&#41;)
+[comment]: <> (国内[加速镜像站点]&#40;https://wisdom-plus.gitee.io/&#41;)
 
 [comment]: <> (Join our [Discord]&#40;https://discord.link/ElementPlus&#41; to start communicating with everybody.)
 
 ## Breaking change list
 
-[comment]: <> (You can find the breaking change list here: [Breaking Change List]&#40;https://github.com/element-plus/element-plus/issues/162&#41;.)
+[comment]: <> (You can find the breaking change list here: [Breaking Change List]&#40;https://github.com/wisdom-plus/wisdom-plus/issues/162&#41;.)
 
 ## Bootstrap project
 
@@ -170,9 +170,9 @@
 
 [comment]: <> (<script setup lang="ts">)
 
-[comment]: <> (// make sure this component is registered in @element-plus/components)
+[comment]: <> (// make sure this component is registered in @wisdom-plus/components)
 
-[comment]: <> (import { ComponentYouAreDeveloping } from '@element-plus/components')
+[comment]: <> (import { ComponentYouAreDeveloping } from '@wisdom-plus/components')
 
 [comment]: <> (</script>)
 
@@ -182,7 +182,7 @@
 
 ## Component migration process
 
-[comment]: <> (1. Convert the item in https://github.com/element-plus/element-plus/projects/1 to an issue)
+[comment]: <> (1. Convert the item in https://github.com/wisdom-plus/wisdom-plus/projects/1 to an issue)
 
 [comment]: <> (2. Assign yourself to the issue)
 
@@ -230,14 +230,14 @@
 
 [comment]: <> (Element Plus is open source software licensed as)
 
-[comment]: <> ([MIT]&#40;https://github.com/element-plus/element-plus/blob/master/LICENSE&#41;.)
+[comment]: <> ([MIT]&#40;https://github.com/wisdom-plus/wisdom-plus/blob/master/LICENSE&#41;.)
 
 ## Contributors
 
 This project wouldn't exist without our amazing contributors
 
-[comment]: <> (<a href="https://github.com/element-plus/element-plus/graphs/contributors">)
+[comment]: <> (<a href="https://github.com/wisdom-plus/wisdom-plus/graphs/contributors">)
 
-[comment]: <> (  <img src="https://contrib.rocks/image?repo=element-plus/element-plus" />)
+[comment]: <> (  <img src="https://contrib.rocks/image?repo=wisdom-plus/wisdom-plus" />)
 
 [comment]: <> (</a>)

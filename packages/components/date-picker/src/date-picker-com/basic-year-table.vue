@@ -46,10 +46,10 @@
 <script lang="ts">
 import { defineComponent, computed } from 'vue'
 import dayjs from 'dayjs'
-import { useLocaleInject } from '@element-plus/hooks'
-import { rangeArr } from '@element-plus/components/time-picker'
-import { hasClass } from '@element-plus/utils/dom'
-import { coerceTruthyValueToArray } from '@element-plus/utils/util'
+import { useLocaleInject } from '@wisdom-plus/hooks'
+import { rangeArr } from '@wisdom-plus/components/time-picker'
+import { hasClass } from '@wisdom-plus/utils/dom'
+import { coerceTruthyValueToArray } from '@wisdom-plus/utils/util'
 
 import type { PropType } from 'vue'
 import type { Dayjs } from 'dayjs'

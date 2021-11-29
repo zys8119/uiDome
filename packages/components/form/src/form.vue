@@ -20,17 +20,17 @@ import {
   toRefs,
   watch,
 } from 'vue'
-import { elFormKey } from '@element-plus/tokens'
-import { debugWarn } from '@element-plus/utils/error'
+import { elFormKey } from '@wisdom-plus/tokens'
+import { debugWarn } from '@wisdom-plus/utils/error'
 import type { ValidateFieldsError } from 'async-validator'
 
 import type { PropType } from 'vue'
-import type { ComponentSize } from '@element-plus/utils/types'
+import type { ComponentSize } from '@wisdom-plus/utils/types'
 import type { FormRulesMap } from './form.type'
 import type {
   ElFormItemContext as FormItemCtx,
   ValidateFieldCallback,
-} from '@element-plus/tokens'
+} from '@wisdom-plus/tokens'
 
 function useFormLabelWidth() {
   const potentialLabelWidthArr = ref([])

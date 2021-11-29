@@ -1,8 +1,8 @@
 import { isString } from '@vue/shared'
-import { useFormItemProps } from '@element-plus/hooks'
-import { buildProps, definePropType, mutable } from '@element-plus/utils/props'
-import { UPDATE_MODEL_EVENT } from '@element-plus/utils/constants'
-import type { StyleValue } from '@element-plus/utils/types'
+import { useFormItemProps } from '@wisdom-plus/hooks'
+import { buildProps, definePropType, mutable } from '@wisdom-plus/utils/props'
+import { UPDATE_MODEL_EVENT } from '@wisdom-plus/utils/constants'
+import type { StyleValue } from '@wisdom-plus/utils/types'
 import type { ExtractPropTypes, Component } from 'vue'
 
 type AutoSize = { minRows?: number; maxRows?: number } | boolean

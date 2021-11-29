@@ -64,12 +64,12 @@ import {
   toRefs,
   watch,
 } from 'vue'
-import ElButton from '@element-plus/components/button'
-import ElIcon from '@element-plus/components/icon'
-import { elFormItemKey } from '@element-plus/tokens'
-import { useLocaleInject } from '@element-plus/hooks'
-import { UPDATE_MODEL_EVENT } from '@element-plus/utils/constants'
-import { ArrowLeft, ArrowRight } from '@element-plus/icons'
+import ElButton from '@wisdom-plus/components/button'
+import ElIcon from '@wisdom-plus/components/icon'
+import { elFormItemKey } from '@wisdom-plus/tokens'
+import { useLocaleInject } from '@wisdom-plus/hooks'
+import { UPDATE_MODEL_EVENT } from '@wisdom-plus/utils/constants'
+import { ArrowLeft, ArrowRight } from '@wisdom-plus/icons'
 import TransferPanel from './transfer-panel.vue'
 import { useComputedData } from './useComputedData'
 import {
@@ -81,7 +81,7 @@ import { useMove } from './useMove'
 import { CHANGE_EVENT } from './transfer'
 
 import type { PropType, VNode } from 'vue'
-import type { ElFormItemContext } from '@element-plus/tokens'
+import type { ElFormItemContext } from '@wisdom-plus/tokens'
 import type { DataItem, Format, Key, Props, TargetOrder } from './transfer'
 
 export default defineComponent({

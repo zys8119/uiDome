@@ -13,8 +13,8 @@
 
 <script lang="ts">
 import { defineComponent, computed } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
-import { ArrowLeft } from '@element-plus/icons'
+import { ElIcon } from '@wisdom-plus/components/icon'
+import { ArrowLeft } from '@wisdom-plus/icons'
 
 const paginationPrevProps = {
   disabled: Boolean,

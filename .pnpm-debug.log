@@ -37,15 +37,15 @@
         "vue": "^3.2.0"
       },
       "dependencies": {
-        "@element-plus/components": "workspace:*",
-        "@element-plus/directives": "workspace:*",
-        "@element-plus/hooks": "workspace:*",
-        "@element-plus/icons": "^0.0.11",
-        "@element-plus/locale": "workspace:*",
-        "@element-plus/test-utils": "workspace:*",
-        "@element-plus/theme-chalk": "workspace:*",
-        "@element-plus/tokens": "workspace:*",
-        "@element-plus/utils": "workspace:*",
+        "@wisdom-plus/components": "workspace:*",
+        "@wisdom-plus/directives": "workspace:*",
+        "@wisdom-plus/hooks": "workspace:*",
+        "@wisdom-plus/icons": "^0.0.11",
+        "@wisdom-plus/locale": "workspace:*",
+        "@wisdom-plus/test-utils": "workspace:*",
+        "@wisdom-plus/theme-chalk": "workspace:*",
+        "@wisdom-plus/tokens": "workspace:*",
+        "@wisdom-plus/utils": "workspace:*",
         "@popperjs/core": "^2.10.2",
         "@vueuse/core": "^7.0.0",
         "async-validator": "^4.0.7",
@@ -284,9 +284,9 @@
     "pkgsStack": [],
     "err": {
       "name": "pnpm",
-      "message": "In : No matching version found for @element-plus/components@* inside the workspace",
+      "message": "In : No matching version found for @wisdom-plus/components@* inside the workspace",
       "code": "ERR_PNPM_NO_MATCHING_VERSION_INSIDE_WORKSPACE",
-      "stack": "pnpm: In : No matching version found for @element-plus/components@* inside the workspace\n    at tryResolveFromWorkspace (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85233:15)\n    at resolveNpm (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85124:39)\n    at Object.resolve (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85356:40)\n    at ctx.requestsQueue.add.priority (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71340:75)\n    at run (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71087:90)\n    at PQueue._tryToStartAnother (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71041:13)\n    at /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71100:16\n    at new Promise (<anonymous>)\n    at PQueue.add (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71082:16)\n    at resolveAndFetch (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71340:55)"
+      "stack": "pnpm: In : No matching version found for @wisdom-plus/components@* inside the workspace\n    at tryResolveFromWorkspace (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85233:15)\n    at resolveNpm (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85124:39)\n    at Object.resolve (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85356:40)\n    at ctx.requestsQueue.add.priority (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71340:75)\n    at run (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71087:90)\n    at PQueue._tryToStartAnother (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71041:13)\n    at /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71100:16\n    at new Promise (<anonymous>)\n    at PQueue.add (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71082:16)\n    at resolveAndFetch (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71340:55)"
     }
   }
 }

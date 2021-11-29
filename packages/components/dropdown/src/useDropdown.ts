@@ -1,9 +1,9 @@
 import { inject, computed, ref } from 'vue'
-import { generateId, useGlobalConfig } from '@element-plus/utils/util'
-import { EVENT_CODE } from '@element-plus/utils/aria'
-import { on, addClass } from '@element-plus/utils/dom'
+import { generateId, useGlobalConfig } from '@wisdom-plus/utils/util'
+import { EVENT_CODE } from '@wisdom-plus/utils/aria'
+import { on, addClass } from '@wisdom-plus/utils/dom'
 
-import type { Nullable } from '@element-plus/utils/types'
+import type { Nullable } from '@wisdom-plus/utils/types'
 import type { IElDropdownInstance } from './dropdown'
 
 export const useDropdown = () => {

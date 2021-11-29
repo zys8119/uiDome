@@ -10,20 +10,20 @@ import {
   Teleport,
   h,
 } from 'vue'
-import { ClickOutside } from '@element-plus/directives'
+import { ClickOutside } from '@wisdom-plus/directives'
 import ElPopper, {
   popperDefaultProps,
   Effect,
   renderArrow,
   renderPopper,
   renderTrigger,
-} from '@element-plus/components/popper'
-import { debugWarn } from '@element-plus/utils/error'
-import { renderIf, PatchFlags } from '@element-plus/utils/vnode'
+} from '@wisdom-plus/components/popper'
+import { debugWarn } from '@wisdom-plus/utils/error'
+import { renderIf, PatchFlags } from '@wisdom-plus/utils/vnode'
 import usePopover, { SHOW_EVENT, HIDE_EVENT } from './usePopover'
 
 import type { PropType } from 'vue'
-import type { TriggerType } from '@element-plus/components/popper'
+import type { TriggerType } from '@wisdom-plus/components/popper'
 
 const emits = [
   'update:visible',

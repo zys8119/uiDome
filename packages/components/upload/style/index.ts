@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/upload.scss'
-import '@element-plus/components/progress/style/index'
+import '@wisdom-plus/components/base/style'
+import '@wisdom-plus/theme-chalk/src/upload.scss'
+import '@wisdom-plus/components/progress/style/index'
