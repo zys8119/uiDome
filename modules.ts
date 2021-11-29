@@ -7,7 +7,7 @@ import esbuild from 'rollup-plugin-esbuild'
 import filesize from 'rollup-plugin-filesize'
 import glob from 'fast-glob'
 import { epRoot, pkgRoot } from './build/utils/paths'
-// import { ElementPlusAlias } from './plugins/element-plus-alias'
+import { ElementPlusAlias } from './build/plugins/element-plus-alias'
 import { generateExternal, writeBundles } from './build/utils/rollup'
 import { excludeFiles } from './build/utils/pkg'
 import { reporter } from './build/plugins/size-reporter'
@@ -24,7 +24,7 @@ export const buildModules = async () => {
   const bundle = await rollup({
     input,
     plugins: [
-      // await ElementPlusAlias(),
+      await ElementPlusAlias(),
       css(),
       vue({ target: 'browser' }),
       nodeResolve({
