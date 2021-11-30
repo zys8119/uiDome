@@ -130,33 +130,6 @@ importers:
   packages/directives:
     specifiers: {}
 
-  packages/element-plus:
-    specifiers:
-      '@element-plus/icons': ^0.0.11
-      '@popperjs/core': ^2.10.2
-      '@types/node': '*'
-      '@vueuse/core': ^7.0.0
-      async-validator: ^4.0.7
-      csstype: ^2.6.0
-      dayjs: ^1.10.7
-      lodash: ^4.17.21
-      memoize-one: ^6.0.0
-      normalize-wheel-es: ^1.1.1
-      vue-router: ^4.0.0
-    dependencies:
-      '@element-plus/icons': 0.0.11
-      '@popperjs/core': 2.11.0
-      '@vueuse/core': 7.1.2_vue@3.2.22
-      async-validator: 4.0.7
-      dayjs: 1.10.7
-      lodash: 4.17.21
-      memoize-one: 6.0.0
-      normalize-wheel-es: 1.1.1
-    devDependencies:
-      '@types/node': 16.11.11
-      csstype: 2.6.19
-      vue-router: 4.0.12_vue@3.2.22
-
   packages/hooks:
     specifiers: {}
 
@@ -191,6 +164,33 @@ importers:
 
   packages/utils:
     specifiers: {}
+
+  packages/wisdom-plus:
+    specifiers:
+      '@element-plus/icons': ^0.0.11
+      '@popperjs/core': ^2.10.2
+      '@types/node': '*'
+      '@vueuse/core': ^7.0.0
+      async-validator: ^4.0.7
+      csstype: ^2.6.0
+      dayjs: ^1.10.7
+      lodash: ^4.17.21
+      memoize-one: ^6.0.0
+      normalize-wheel-es: ^1.1.1
+      vue-router: ^4.0.0
+    dependencies:
+      '@element-plus/icons': 0.0.11
+      '@popperjs/core': 2.11.0
+      '@vueuse/core': 7.1.2_vue@3.2.22
+      async-validator: 4.0.7
+      dayjs: 1.10.7
+      lodash: 4.17.21
+      memoize-one: 6.0.0
+      normalize-wheel-es: 1.1.1
+    devDependencies:
+      '@types/node': 16.11.11
+      csstype: 2.6.19
+      vue-router: 4.0.12_vue@3.2.22
 
   play:
     specifiers:
