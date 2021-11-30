@@ -21,8 +21,6 @@ export default defineComponent({
   emits: buttonEmits,
 
   setup(props, { emit, slots }) {
-
-
     return {
 
     }
