@@ -1,11 +1,9 @@
 <template>
   <div class="play-container">
-    <ElButton type="success">test</ElButton>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ElButton } from "@wisdom-plus/components/button";
 // code here
 </script>
 

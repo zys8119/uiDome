@@ -1,6 +1,0 @@
-import '@wisdom-plus/components/base/style'
-import '@wisdom-plus/theme-chalk/src/container.scss'
-import '@wisdom-plus/theme-chalk/src/aside.scss'
-import '@wisdom-plus/theme-chalk/src/footer.scss'
-import '@wisdom-plus/theme-chalk/src/header.scss'
-import '@wisdom-plus/theme-chalk/src/main.scss'

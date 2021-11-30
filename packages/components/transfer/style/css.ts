@@ -1,6 +1,0 @@
-import '@wisdom-plus/components/base/style/css'
-import '@wisdom-plus/theme-chalk/el-transfer.css'
-import '@wisdom-plus/components/input/style/css'
-import '@wisdom-plus/components/button/style/css'
-import '@wisdom-plus/components/checkbox/style/css'
-import '@wisdom-plus/components/checkbox-group/style/css'

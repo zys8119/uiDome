@@ -1,5 +1,0 @@
-import '@wisdom-plus/components/base/style/css'
-import '@wisdom-plus/theme-chalk/el-cascader-panel.css'
-import '@wisdom-plus/components/checkbox/style/css'
-import '@wisdom-plus/components/radio/style/css'
-import '@wisdom-plus/components/scrollbar/style/css'

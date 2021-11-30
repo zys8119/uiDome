@@ -1,5 +1,0 @@
-import '@wisdom-plus/components/base/style/css'
-import '@wisdom-plus/theme-chalk/el-table.css'
-import '@wisdom-plus/components/checkbox/style/css'
-import '@wisdom-plus/components/tag/style/css'
-import '@wisdom-plus/components/tooltip/style/css'
