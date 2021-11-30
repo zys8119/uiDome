@@ -8,7 +8,7 @@ import replace from '@rollup/plugin-replace'
 import filesize from 'rollup-plugin-filesize'
 import { parallel } from 'gulp'
 import { version } from '../packages/wisdom-plus/version'
-import { ElementPlusAlias } from './plugins/wisdom-plus-alias'
+import { WisdomPlusAlias } from './plugins/wisdom-plus-alias'
 import { epRoot, epOutput } from './utils/paths'
 import { generateExternal, writeBundles } from './utils/rollup'
 
@@ -18,7 +18,7 @@ export const buildFull = (minify: boolean) => async () => {
   const bundle = await rollup({
     input: path.resolve(epRoot, 'index.ts'),
     plugins: [
-      await ElementPlusAlias(),
+      await WisdomPlusAlias(),
       nodeResolve({
         extensions: ['.mjs', '.js', '.json', '.ts'],
       }),
