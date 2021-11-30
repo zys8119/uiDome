@@ -13,7 +13,7 @@ import {
 } from 'vue'
 import { Resize } from '@wisdom-plus/directives'
 import ElIcon from '@wisdom-plus/components/icon'
-import { More } from '@wisdom-plus/icons'
+import { More } from '@element-plus/icons'
 import Menubar from '@wisdom-plus/utils/menu/menu-bar'
 import { buildProps, definePropType, mutable } from '@wisdom-plus/utils/props'
 import { isString, isObject } from '@wisdom-plus/utils/util'

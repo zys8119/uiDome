@@ -52,7 +52,7 @@
 </template>
 <script lang="ts">
 import { defineComponent, ref, computed, watchEffect } from 'vue'
-import { MoreFilled, DArrowLeft, DArrowRight } from '@wisdom-plus/icons'
+import { MoreFilled, DArrowLeft, DArrowRight } from '@element-plus/icons'
 
 const paginationPagerProps = {
   currentPage: {

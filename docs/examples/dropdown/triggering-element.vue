@@ -29,7 +29,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { ArrowDown } from '@wisdom-plus/icons'
+import { ArrowDown } from '@element-plus/icons'
 
 export default defineComponent({
   components: {

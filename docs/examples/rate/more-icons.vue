@@ -10,7 +10,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { ChatRound, ChatLineRound, ChatDotRound } from '@wisdom-plus/icons'
+import { ChatRound, ChatLineRound, ChatDotRound } from '@element-plus/icons'
 
 export default defineComponent({
   setup() {

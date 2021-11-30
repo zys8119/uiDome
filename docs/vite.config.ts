@@ -37,7 +37,7 @@ export default defineConfig({
       '@vueuse/core',
       'axios',
       'nprogress',
-      '@wisdom-plus/icons',
+      '@element-plus/icons',
       'dayjs',
       'memoize-one',
       'async-validator',

@@ -40,7 +40,7 @@ import { useCssVar } from '@vueuse/core'
 import { ElIcon } from '@wisdom-plus/components/icon'
 import { useFormItem, useGlobalConfig } from '@wisdom-plus/hooks'
 import { buttonGroupContextKey } from '@wisdom-plus/tokens'
-import { Loading } from '@wisdom-plus/icons'
+import { Loading } from '@element-plus/icons'
 
 import { lighten, darken } from '@wisdom-plus/utils/color'
 

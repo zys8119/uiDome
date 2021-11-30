@@ -38,7 +38,7 @@
 </template>
 
 <script lang="ts">
-import { Timer } from '@wisdom-plus/icons'
+import { Timer } from '@element-plus/icons'
 
 export default {
   components: {

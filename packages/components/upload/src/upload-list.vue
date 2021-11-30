@@ -102,7 +102,7 @@ import {
   ZoomIn,
   Check,
   CircleCheck,
-} from '@wisdom-plus/icons'
+} from '@element-plus/icons'
 import { useLocaleInject } from '@wisdom-plus/hooks'
 import ElProgress from '@wisdom-plus/components/progress'
 

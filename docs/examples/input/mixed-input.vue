@@ -31,7 +31,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { Search } from '@wisdom-plus/icons'
+import { Search } from '@element-plus/icons'
 const input1 = ref('')
 const input2 = ref('')
 const input3 = ref('')

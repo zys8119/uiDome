@@ -1,5 +1,5 @@
 import { isValidComponentSize } from '@wisdom-plus/utils/validators'
-import { CircleClose } from '@wisdom-plus/icons'
+import { CircleClose } from '@element-plus/icons'
 
 import type { PropType, Component } from 'vue'
 import type { ComponentSize } from '@wisdom-plus/utils/types'

@@ -3,5 +3,5 @@
 </template>
 
 <script lang="ts" setup>
-import { ArrowLeft } from '@wisdom-plus/icons'
+import { ArrowLeft } from '@element-plus/icons'
 </script>

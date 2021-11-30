@@ -234,7 +234,7 @@ import {
   removeResizeListener,
 } from '@wisdom-plus/utils/resize-event'
 import { isValidComponentSize } from '@wisdom-plus/utils/validators'
-import { CircleClose, ArrowUp } from '@wisdom-plus/icons'
+import { CircleClose, ArrowUp } from '@element-plus/icons'
 import ElOption from './option.vue'
 import ElSelectMenu from './select-dropdown.vue'
 import { useSelect, useSelectStates } from './useSelect'

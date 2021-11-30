@@ -21,7 +21,7 @@ import {
 import { getValueByPath, useGlobalConfig } from '@wisdom-plus/utils/util'
 import { Effect } from '@wisdom-plus/components/popper'
 
-import { ArrowUp } from '@wisdom-plus/icons'
+import { ArrowUp } from '@element-plus/icons'
 import { useAllowCreate } from './useAllowCreate'
 
 import { flattenOptions } from './util'

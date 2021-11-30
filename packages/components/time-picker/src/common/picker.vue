@@ -154,7 +154,7 @@ import ElIcon from '@wisdom-plus/components/icon'
 import ElPopper, { Effect } from '@wisdom-plus/components/popper'
 import { EVENT_CODE } from '@wisdom-plus/utils/aria'
 import { useGlobalConfig, isEmpty } from '@wisdom-plus/utils/util'
-import { Clock, Calendar } from '@wisdom-plus/icons'
+import { Clock, Calendar } from '@element-plus/icons'
 import { timePickerDefaultProps } from './props'
 
 import type { Dayjs } from 'dayjs'

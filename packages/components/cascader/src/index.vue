@@ -181,7 +181,7 @@ import {
 } from '@wisdom-plus/utils/resize-event'
 import { isValidComponentSize } from '@wisdom-plus/utils/validators'
 import { isKorean } from '@wisdom-plus/utils/isDef'
-import { CircleClose, Check, ArrowDown } from '@wisdom-plus/icons'
+import { CircleClose, Check, ArrowDown } from '@element-plus/icons'
 
 import type { Options } from '@wisdom-plus/components/popper'
 import type { ComputedRef, PropType, Ref } from 'vue'

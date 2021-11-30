@@ -4,7 +4,7 @@ import {
   CircleCheckFilled,
   CircleCloseFilled,
   InfoFilled,
-} from '@wisdom-plus/icons'
+} from '@element-plus/icons'
 import type { Component, ExtractPropTypes } from 'vue'
 
 export const IconMap = {

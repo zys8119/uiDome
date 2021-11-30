@@ -110,7 +110,7 @@ import ElInput from '@wisdom-plus/components/input'
 import ElScrollbar from '@wisdom-plus/components/scrollbar'
 import ElPopper, { Effect } from '@wisdom-plus/components/popper'
 import ElIcon from '@wisdom-plus/components/icon'
-import { Loading } from '@wisdom-plus/icons'
+import { Loading } from '@element-plus/icons'
 
 import type { Placement } from '@wisdom-plus/components/popper'
 import type { PropType } from 'vue'

@@ -69,7 +69,7 @@ import ElIcon from '@wisdom-plus/components/icon'
 import { elFormItemKey } from '@wisdom-plus/tokens'
 import { useLocaleInject } from '@wisdom-plus/hooks'
 import { UPDATE_MODEL_EVENT } from '@wisdom-plus/utils/constants'
-import { ArrowLeft, ArrowRight } from '@wisdom-plus/icons'
+import { ArrowLeft, ArrowRight } from '@element-plus/icons'
 import TransferPanel from './transfer-panel.vue'
 import { useComputedData } from './useComputedData'
 import {

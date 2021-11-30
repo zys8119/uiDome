@@ -1,6 +1,6 @@
 import { nextTick } from 'vue'
 import { mount } from '@vue/test-utils'
-import { Edit } from '@wisdom-plus/icons'
+import { Edit } from '@element-plus/icons'
 import Steps from '../src/index.vue'
 import Step from '../src/item.vue'
 

@@ -51,7 +51,7 @@ import { EVENT_CODE } from '@wisdom-plus/utils/aria'
 
 import { UPDATE_MODEL_EVENT } from '@wisdom-plus/utils/constants'
 import { ElIcon } from '@wisdom-plus/components/icon'
-import { StarFilled, Star } from '@wisdom-plus/icons'
+import { StarFilled, Star } from '@element-plus/icons'
 import { rateProps, rateEmits } from './rate'
 import type { ElFormContext } from '@wisdom-plus/tokens'
 

@@ -15,5 +15,5 @@
 </template>
 
 <script lang="ts" setup>
-import { Calendar } from '@wisdom-plus/icons'
+import { Calendar } from '@element-plus/icons'
 </script>

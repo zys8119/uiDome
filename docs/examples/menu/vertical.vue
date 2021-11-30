@@ -91,7 +91,7 @@ import {
   Document,
   Menu as IconMenu,
   Setting,
-} from '@wisdom-plus/icons'
+} from '@element-plus/icons'
 
 export default defineComponent({
   components: {

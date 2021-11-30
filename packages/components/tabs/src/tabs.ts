@@ -14,7 +14,7 @@ import {
 import { isPromise, NOOP } from '@vue/shared'
 import { EVENT_CODE } from '@wisdom-plus/utils/aria'
 import ElIcon from '@wisdom-plus/components/icon'
-import { Plus } from '@wisdom-plus/icons'
+import { Plus } from '@element-plus/icons'
 import { buildProps, definePropType } from '@wisdom-plus/utils/props'
 import { INPUT_EVENT, UPDATE_MODEL_EVENT } from '@wisdom-plus/utils/constants'
 import { tabsRootContextKey } from '@wisdom-plus/tokens'

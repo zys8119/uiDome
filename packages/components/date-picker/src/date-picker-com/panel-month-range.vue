@@ -105,7 +105,7 @@ import { defineComponent, computed, ref, watch, inject } from 'vue'
 import dayjs from 'dayjs'
 import ElIcon from '@wisdom-plus/components/icon'
 import { useLocaleInject } from '@wisdom-plus/hooks'
-import { DArrowLeft, DArrowRight } from '@wisdom-plus/icons'
+import { DArrowLeft, DArrowRight } from '@element-plus/icons'
 import MonthTable from './basic-month-table.vue'
 
 import type { PropType } from 'vue'

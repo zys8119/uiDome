@@ -15,5 +15,5 @@
 </template>
 
 <script setup lang="ts">
-import { UserFilled } from '@wisdom-plus/icons'
+import { UserFilled } from '@element-plus/icons'
 </script>

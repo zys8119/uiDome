@@ -1,7 +1,7 @@
 import { h } from 'vue'
 import ElCheckbox from '@wisdom-plus/components/checkbox'
 import { ElIcon } from '@wisdom-plus/components/icon'
-import { ArrowRight, Loading } from '@wisdom-plus/icons'
+import { ArrowRight, Loading } from '@element-plus/icons'
 import { getPropByPath } from '@wisdom-plus/utils/util'
 
 import type { VNode } from 'vue'

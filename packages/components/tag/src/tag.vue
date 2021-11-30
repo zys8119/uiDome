@@ -28,7 +28,7 @@
 import { computed, defineComponent } from 'vue'
 import ElIcon from '@wisdom-plus/components/icon'
 import { useGlobalConfig } from '@wisdom-plus/utils/util'
-import { Close } from '@wisdom-plus/icons'
+import { Close } from '@element-plus/icons'
 
 import { tagProps, tagEmits } from './tag'
 

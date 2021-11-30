@@ -3,7 +3,7 @@ import { computed, ref } from 'vue'
 import { hyphenate } from '@vue/shared'
 import clipboardCopy from 'clipboard-copy'
 import { ElMessage } from 'wisdom-plus'
-import * as Icons from '@wisdom-plus/icons'
+import * as Icons from '@element-plus/icons'
 import { useLang } from '../../composables/lang'
 import localeData from '../../../i18n/component/icons.json'
 

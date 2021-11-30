@@ -84,7 +84,7 @@ import {
   CircleClose,
   Check,
   Close,
-} from '@wisdom-plus/icons'
+} from '@element-plus/icons'
 
 import type { PropType, SVGAttributes } from 'vue'
 

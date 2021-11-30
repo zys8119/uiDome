@@ -67,7 +67,7 @@ import ElScrollbar from '@wisdom-plus/components/scrollbar'
 import ElIcon from '@wisdom-plus/components/icon'
 import { on, addClass, removeClass } from '@wisdom-plus/utils/dom'
 import { addUnit } from '@wisdom-plus/utils/util'
-import { ArrowDown } from '@wisdom-plus/icons'
+import { ArrowDown } from '@element-plus/icons'
 import { useDropdown } from './useDropdown'
 
 import type { Placement } from '@wisdom-plus/components/popper'

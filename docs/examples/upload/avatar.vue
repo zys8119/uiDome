@@ -12,7 +12,7 @@
 </template>
 
 <script lang="ts">
-import { Plus } from '@wisdom-plus/icons'
+import { Plus } from '@element-plus/icons'
 export default {
   components: {
     Plus,

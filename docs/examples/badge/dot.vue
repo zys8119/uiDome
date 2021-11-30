@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts" setup>
-import { Share } from '@wisdom-plus/icons'
+import { Share } from '@element-plus/icons'
 </script>
 
 <style scoped>

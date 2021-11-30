@@ -17,7 +17,7 @@
 
 <script lang="ts">
 import { defineComponent, reactive, toRefs } from 'vue'
-import { Minus, Plus } from '@wisdom-plus/icons'
+import { Minus, Plus } from '@element-plus/icons'
 
 export default defineComponent({
   setup() {

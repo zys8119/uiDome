@@ -80,7 +80,7 @@ import debounce from 'lodash/debounce'
 import { RepeatClick } from '@wisdom-plus/directives'
 import ElScrollbar from '@wisdom-plus/components/scrollbar'
 import ElIcon from '@wisdom-plus/components/icon'
-import { ArrowUp, ArrowDown } from '@wisdom-plus/icons'
+import { ArrowUp, ArrowDown } from '@element-plus/icons'
 import { getTimeLists } from './useTimePicker'
 
 import type { PropType, Ref } from 'vue'

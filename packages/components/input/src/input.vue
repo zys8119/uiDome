@@ -147,7 +147,7 @@ import {
   onUpdated,
 } from 'vue'
 import { ElIcon } from '@wisdom-plus/components/icon'
-import { CircleClose, View as IconView } from '@wisdom-plus/icons'
+import { CircleClose, View as IconView } from '@element-plus/icons'
 import { ValidateComponentsMap } from '@wisdom-plus/utils/icon'
 import { elFormKey, elFormItemKey } from '@wisdom-plus/tokens'
 import { useAttrs, useFormItem } from '@wisdom-plus/hooks'

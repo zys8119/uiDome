@@ -18,7 +18,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import { ElMessage } from 'wisdom-plus'
-import { ArrowDown } from '@wisdom-plus/icons'
+import { ArrowDown } from '@element-plus/icons'
 
 export default defineComponent({
   components: {

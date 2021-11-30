@@ -58,7 +58,7 @@ import {
   watch,
 } from 'vue'
 import { ElIcon } from '@wisdom-plus/components/icon'
-import { Close, Check } from '@wisdom-plus/icons'
+import { Close, Check } from '@element-plus/icons'
 
 import type { Ref, PropType, Component } from 'vue'
 

@@ -24,7 +24,7 @@
 </template>
 
 <script lang="ts" setup>
-import { Check } from '@wisdom-plus/icons'
+import { Check } from '@element-plus/icons'
 </script>
 
 <style lang="scss" scoped>

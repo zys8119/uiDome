@@ -197,7 +197,7 @@ import {
   ArrowLeft,
   DArrowRight,
   ArrowRight,
-} from '@wisdom-plus/icons'
+} from '@element-plus/icons'
 import DateTable from './basic-date-table.vue'
 import MonthTable from './basic-month-table.vue'
 import YearTable from './basic-year-table.vue'

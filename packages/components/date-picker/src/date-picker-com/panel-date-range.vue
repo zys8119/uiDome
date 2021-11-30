@@ -255,7 +255,7 @@ import {
   ArrowLeft,
   DArrowRight,
   ArrowRight,
-} from '@wisdom-plus/icons'
+} from '@element-plus/icons'
 import DateTable from './basic-date-table.vue'
 
 import type { PropType } from 'vue'

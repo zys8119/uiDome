@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import { Check } from '@wisdom-plus/icons'
+import { Check } from '@element-plus/icons'
 import Breadcrumb from '../src/breadcrumb.vue'
 import BreadcrumbItem from '../src/breadcrumb-item.vue'
 

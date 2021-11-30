@@ -39,7 +39,7 @@
       "@wisdom-plus/components": "workspace:*",
       "@wisdom-plus/directives": "workspace:*",
       "@wisdom-plus/hooks": "workspace:*",
-      "@wisdom-plus/icons": "^0.0.11",
+      "@element-plus/icons": "^0.0.11",
       "@wisdom-plus/locale": "workspace:*",
       "@wisdom-plus/test-utils": "workspace:*",
       "@wisdom-plus/theme-chalk": "workspace:*",

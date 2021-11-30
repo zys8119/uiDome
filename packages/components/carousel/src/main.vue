@@ -80,7 +80,7 @@ import {
   removeResizeListener,
 } from '@wisdom-plus/utils/resize-event'
 import { ElIcon } from '@wisdom-plus/components/icon'
-import { ArrowLeft, ArrowRight } from '@wisdom-plus/icons'
+import { ArrowLeft, ArrowRight } from '@element-plus/icons'
 
 import { debugWarn } from '@wisdom-plus/utils/error'
 import type {

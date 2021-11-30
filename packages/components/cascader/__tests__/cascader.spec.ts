@@ -2,7 +2,7 @@ import { nextTick } from 'vue'
 import { mount } from '@vue/test-utils'
 import { EVENT_CODE } from '@wisdom-plus/utils/aria'
 import { triggerEvent } from '@wisdom-plus/test-utils'
-import { ArrowDown, Check, CircleClose } from '@wisdom-plus/icons'
+import { ArrowDown, Check, CircleClose } from '@element-plus/icons'
 import Cascader from '../src/index.vue'
 
 const OPTIONS = [

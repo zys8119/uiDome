@@ -18,5 +18,5 @@
 </template>
 
 <script setup lang="ts">
-import { Picture as IconPicture } from '@wisdom-plus/icons'
+import { Picture as IconPicture } from '@element-plus/icons'
 </script>

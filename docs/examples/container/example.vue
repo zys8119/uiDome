@@ -86,7 +86,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { Message, Menu, Setting } from '@wisdom-plus/icons'
+import { Message, Menu, Setting } from '@element-plus/icons'
 
 export default defineComponent({
   components: {

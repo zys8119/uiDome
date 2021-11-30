@@ -33,7 +33,7 @@
 import { defineComponent, computed, ref } from 'vue'
 import ElSelect from '@wisdom-plus/components/select'
 import ElIcon from '@wisdom-plus/components/icon'
-import { CircleClose, Clock } from '@wisdom-plus/icons'
+import { CircleClose, Clock } from '@element-plus/icons'
 
 import type { PropType, Component } from 'vue'
 import type { ComponentSize } from '@wisdom-plus/utils/types'
