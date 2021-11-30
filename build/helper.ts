@@ -1,12 +1,13 @@
 import path from 'path'
 import helper from 'components-helper'
 import { epPackage, epOutput, projRoot } from './utils/paths'
+import { UI_PREFIX, UI_PREFIX_UPPER } from './utils/constants'
 import { getPackageManifest } from './utils/pkg'
 import type { TaskFunction } from 'gulp'
 import type { InstallOptions } from 'components-helper/lib/type'
 
 const reComponentName: InstallOptions['reComponentName'] = (title: string) =>
-  `el-${title
+  `${UI_PREFIX}-${title
     .replace(/\B([A-Z])/g, '-$1')
     .replace(/[ ]+/g, '-')
     .toLowerCase()}`
@@ -19,7 +20,7 @@ const reDocUrl: InstallOptions['reDocUrl'] = (fileName, header) => {
 }
 
 const reWebTypesSource: InstallOptions['reWebTypesSource'] = (title) => {
-  const symbol = `El${title
+  const symbol = `${UI_PREFIX_UPPER}${title
     .replaceAll(/-/g, ' ')
     .replaceAll(/^\w|\s+\w/g, (item) => {
       return item.trim().toUpperCase()
@@ -55,8 +56,8 @@ const reAttribute: InstallOptions['reAttribute'] = (value, key) => {
       : str.replace(/`/g, '')
   } else if (key === 'Subtags') {
     return str
-      ? `el-${str
-          .replaceAll(/\s*\/\s*/g, '/el-')
+      ? `${UI_PREFIX}-${str
+          .replaceAll(/\s*\/\s*/g, `/${UI_PREFIX}-`)
           .replaceAll(/\B([A-Z])/g, '-$1')
           .replaceAll(/\s+/g, '-')
           .toLowerCase()}`
