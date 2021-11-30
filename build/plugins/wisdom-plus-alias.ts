@@ -2,7 +2,7 @@ import { EP_PKG, EP_PREFIX } from '../utils/constants'
 import { getDistPackages } from '../utils/pkg'
 import type { Plugin } from 'rollup'
 
-export async function ElementPlusAlias(): Promise<Plugin> {
+export async function WisdomPlusAlias(): Promise<Plugin> {
   const pkgs = await getDistPackages()
 
   return {
